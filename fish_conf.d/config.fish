@@ -1,19 +1,12 @@
-# This is a hack to prevent this file from being sourced twice
-if not status is-interactive
-    exit
-end
-
-for f in ~/.config/fish/functions/private/*
-    source $f
-end
-
 # Binds option-up
 bind \e\[1\;5A history-token-search-backward
+
 # Binds super-up (for emacs vterm integration, where there is no "option"
 bind \e\[1\;2A history-token-search-backward
 
 # option-down
 bind \e\[1\;5B history-token-search-forward
+
 # super-down
 bind \e\[1\;2B history-token-search-forward
 
@@ -29,6 +22,7 @@ bind \cw backward-kill-bigword
 # Bind paste using function to avoid 'clone-cd git clone'
 bind \cv paste_avoiding_double_git_clone
 bind \ev paste_avoiding_double_git_clone
+
 # kitty keyboard protocol alt+v
 bind \u00F6 paste_avoiding_double_git_clone
 
