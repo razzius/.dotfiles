@@ -289,3 +289,5 @@ abbr -a --position anywhere -- --ver --version
 abbr -a --set-cursor='%' -- rmw 'remove (which %)'
 abbr -a -- wcl 'wc -l'
 abbr -a -- testme gogo
+abbr -a -- gma 'git merge --abort'
+abbr -a --set-cursor='%' -- gcm 'git commit -m "%"'
