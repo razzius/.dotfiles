@@ -4,7 +4,7 @@ abbr -a -- .e '~/.emacs.d'
 abbr -a -- .f '~/.config/fish'
 abbr -a -- .gi gitignore
 abbr -a -- .s '~/.dotfiles'
-abbr -a -- .t "$EDITOR ~/.tmux.conf"
+abbr -a -- .t 'vim ~/.tmux.conf'
 abbr -a -- .v '~/.vim'
 abbr -a -- / search
 abbr -a -- 1 'npx @11ty/eleventy'
@@ -292,3 +292,6 @@ abbr -a -- wcl 'wc -l'
 abbr -a -- gma 'git merge --abort'
 abbr -a --set-cursor='%' -- gcm 'git commit -m "%"'
 abbr -a -- hist history
+abbr -a -- desc describe
+abbr -a -- tun tunnel
+abbr -a -- gcid 'git commit-id'
