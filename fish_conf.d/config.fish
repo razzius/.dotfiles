@@ -17,7 +17,10 @@ bind \ct transpose-chars
 bind \cs accept-autosuggestion execute
 
 # Make C-w delete a whole word including special chars
-bind \cw backward-kill-bigword
+bind \cw backward-kill-word
+
+# Make A-bksp delete a whole word including special chars
+bind \u00FF backward-kill-bigword
 
 # Bind paste using function to avoid 'clone-cd git clone'
 bind \cv paste_avoiding_double_git_clone
