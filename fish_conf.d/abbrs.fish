@@ -296,3 +296,4 @@ abbr -a -- desc describe
 abbr -a -- tun tunnel
 abbr -a -- gcid 'git commit-id'
 abbr -a -- wmc wmctrl
+abbr -a -- tarl 'tar --list --file'
