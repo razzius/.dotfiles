@@ -27,9 +27,9 @@ ln -s (pwd)/sway.conf ~/.config/sway/config
 
 ## fish
 
-Config from this repo is added to https://git.sr.hut/~razzi/fish-functions.
+Config from this repo is added to <https://git.sr.hut/~razzi/fish-functions>.
 
-See https://razzi.abuissa.net/2023/10/11/gitignore-and-symlinks.
+See <https://razzi.abuissa.net/2023/10/11/gitignore-and-symlinks>.
 
 ```
 $ git clone git@git.sr.ht:~razzi/fish-functions ~/.config/fish
