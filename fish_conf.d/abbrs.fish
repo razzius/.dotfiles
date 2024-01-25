@@ -303,3 +303,5 @@ abbr -a -- wh which
 abbr -a -- gsl 'git stash list'
 abbr -a -- gss 'git stash show'
 abbr -a -- mv move
+abbr -a -- cm cmake
+abbr -a -- cm. 'cmake ..'
