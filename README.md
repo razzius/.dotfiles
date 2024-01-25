@@ -1,47 +1,49 @@
-# keyd
+# .dotfiles
 
 ```
-$ sudo ln -s (pwd)/keyd_config/common /etc/keyd/
-$ sudo ln -s (pwd)/keyd_config/default.conf /etc/keyd/
-$ sudo ln -s (pwd)/keyd_config/magic_keyboard.conf /etc/keyd/
+$ git clone git@git.sr.ht:~razzi/.dotfiles ~/.dotfiles
 ```
 
-# rg
+## keyd
+
+```
+$ sudo ln -s (pwd)/keyd_config /etc/keyd
+```
+
+## rg
 
 ```
 $ ln -s (pwd)/.rgrc $HOME/.rgrc
 
-# Set in .profile
+## Set in .profile
 export RIPGREP_CONFIG_PATH=$HOME/.rgrc
 ```
 
-# sway
+## sway
 
 ```
 ln -s (pwd)/sway.conf ~/.config/sway/config
 ```
 
-# vim
+## fish
 
-See https://git.sr.ht/~razzi/.vim
+Config from this repo is added to https://git.sr.hut/~razzi/fish-functions.
 
-# fish
-
-Uses https://git.sr.hut/~razzi/fish-functions.
+See https://razzi.abuissa.net/2023/10/11/gitignore-and-symlinks.
 
 ```
-$ git clone https://git.sr.ht/~razzi/fish-functions ~/.config/fish
+$ git clone git@git.sr.ht:~razzi/fish-functions ~/.config/fish
 $ symlink fish_conf.d ~/.config/fish/conf.d
 ```
 
-# kitty
+## kitty
 
 ```
-ln -s $(pwd)/kitty.conf ~/.config/kitty/kitty.conf
+ln -s $(pwd)/kitty.conf ~/.config/kitty/
 ```
 
-# tmux
+## tmux
 
 ```
-ln -s $(pwd)/.tmux.conf ~/
+ln -s $(pwd)/.tmux.conf ~
 ```
