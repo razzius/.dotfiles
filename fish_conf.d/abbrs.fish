@@ -295,3 +295,4 @@ abbr -a -- hist history
 abbr -a -- desc describe
 abbr -a -- tun tunnel
 abbr -a -- gcid 'git commit-id'
+abbr -a -- wmc wmctrl
