@@ -251,7 +251,6 @@ abbr -a -- t vim\ \'+terminal\ ++curwin\'
 abbr -a -- tali tail
 abbr -a -- tm tmux
 abbr -a -- tz tgz
-abbr -a -- u 'sudo apt update'
 abbr -a -- ug 'sudo apt upgrade -y'
 abbr -a -- uns unsymlink
 abbr -a -- up 'sudo apt update'
@@ -297,3 +296,4 @@ abbr -a -- tun tunnel
 abbr -a -- gcid 'git commit-id'
 abbr -a -- wmc wmctrl
 abbr -a -- tarl 'tar --list --file'
+abbr -a -- u 'sudo apt update && apt list --upgradable'
