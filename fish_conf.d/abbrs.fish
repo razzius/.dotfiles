@@ -301,3 +301,4 @@ abbr -a -- vf 'vim +:Files'
 abbr -a -- whcih which
 abbr -a -- wh which
 abbr -a -- gsl 'git stash list'
+abbr -a -- gss 'git stash show'
