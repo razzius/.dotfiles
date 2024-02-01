@@ -298,3 +298,5 @@ abbr -a -- wmc wmctrl
 abbr -a -- tarl 'tar --list --file'
 abbr -a -- u 'sudo apt update && apt list --upgradable'
 abbr -a -- vf 'vim +:Files'
+abbr -a -- whcih which
+abbr -a -- wh which
