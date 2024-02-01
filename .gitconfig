@@ -60,7 +60,7 @@
 		git stash drop stash@{1} > /dev/null \
 	"
 	stash-unstaged = stash --keep-index --include-untracked
-	stat = status -sb
+	stat = !git status -sb && git stash list
 	switch-to-upstream-branch = "!git fetch origin $1 && git switch -c $1 FETCH_HEAD #"
 	tree = log --graph --oneline --all
 	to = "!\
