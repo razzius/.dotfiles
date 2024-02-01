@@ -300,3 +300,4 @@ abbr -a -- u 'sudo apt update && apt list --upgradable'
 abbr -a -- vf 'vim +:Files'
 abbr -a -- whcih which
 abbr -a -- wh which
+abbr -a -- gsl 'git stash list'
