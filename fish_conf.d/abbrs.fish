@@ -305,3 +305,4 @@ abbr -a -- gss 'git stash show'
 abbr -a -- mv move
 abbr -a -- cm cmake
 abbr -a -- cm. 'cmake ..'
+abbr -a -- lf 'systemctl list-units --failed'
