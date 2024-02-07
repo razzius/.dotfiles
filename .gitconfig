@@ -5,21 +5,15 @@
 	default = current
 [alias]
 	assumed-unchanged = "!git ls-files -v | grep '^[a-z]' | awk '{print $2}'"
-	base = "!echo master"
 	branch-exists = "!git show-ref --quiet refs/heads/$1 #"
 	branch-names = for-each-ref --format='%(refname:short)' refs/heads
 	branch-updates = for-each-ref --sort='-authordate:iso8601' --format=' %(authordate:relative)%09%(refname:short)' refs/heads
-	cl = clone --depth=1
 	clean-untracked = clean -f -d -X
-	cleanup = !git reset --hard && git clean-untracked && git clean -f
 	clear-reflog= reflog expire --expire=now --all
-	commit-date = "!gdate -d @`git log -1 --format="%at"` -I"
 	commit-id = "!git rev-parse @ | tr -d '\n'"
 	current = rev-parse --abbrev-ref HEAD
 	diff-from-start = "!git diff --color=always --stat $(git hash-object -t tree /dev/null)"
 	deleted-files = diff --name-only --diff-filter=D --cached
-	fallback-to-base = "!if [ -n \"$1\" ]; then echo \"$1\"; else git base; fi #"
-	fetch-rebase = "!git fetch origin && git rebase origin/$(git base)"
 	fixup-amend = "!git commit --fixup `git staged-changes-commit` && GIT_EDITOR=true git rebase -i `git review-base`"
 	hop = "!git stash && git switch ${1--} && git stash pop #"
 	invert-staged = "!git stash-staged && git add . && git stash pop > /dev/null"
@@ -44,7 +38,7 @@
 	review-diff = "!git diff $(git review-base \"$1\") #"
 	review-files = "!git diff --name-only $(git review-base \"$1\") #"
 	review-status = "!git diff --name-status $(git review-base \"$1\") #"
-	review-base = "!git merge-base `git current` $(git fallback-to-base \"$1\") #"
+	review-base = "!git merge-base `git current` main #"
 	root = rev-parse --show-toplevel
 	show-diff = show --pretty=format:%b
 	soft-merge = merge --no-commit --no-ff
