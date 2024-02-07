@@ -1,8 +1,6 @@
 [user]
 	name = Razzi Abuissa
 	email = razzi@abuissa.net
-[push]
-	default = current
 [alias]
 	assumed-unchanged = "!git ls-files -v | grep '^[a-z]' | awk '{print $2}'"
 	branch-exists = "!git show-ref --quiet refs/heads/$1 #"
@@ -71,6 +69,8 @@
 [core]
 	excludesfile = ~/.gitignore_global
 	pager = less --tabs=4 -RFX
+[push]
+	default = current
 [pull]
 	rebase = true
 [rebase]
