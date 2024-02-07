@@ -306,3 +306,4 @@ abbr -a -- mv move
 abbr -a -- cm cmake
 abbr -a -- cm. 'cmake ..'
 abbr -a -- lf 'systemctl list-units --failed'
+abbr -a -- gbs 'git branch --set-upstream-to origin/main main'
