@@ -204,7 +204,6 @@ abbr -a -- pir 'pip install -r requirements.txt'
 abbr -a -- pk 'pkill -i'
 abbr -a -- pl play
 abbr -a -- pm 'python -m'
-abbr -a -- po 'parcel index.html --open'
 abbr -a -- poi 'poetry install'
 abbr -a -- pop 'git stash pop'
 abbr -a -- pos 'poetry shell'
