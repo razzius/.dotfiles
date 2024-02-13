@@ -307,3 +307,4 @@ abbr -a -- lf 'systemctl list-units --failed'
 abbr -a -- gbs 'git branch --set-upstream-to origin/main main'
 abbr -a -- au 'sudo apt upgrade -y'
 abbr -a -- gclean 'git clean -xdi'
+abbr -a -- . source
