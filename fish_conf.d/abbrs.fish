@@ -309,3 +309,4 @@ abbr -a -- au 'sudo apt upgrade -y'
 abbr -a -- gclean 'git clean -xdi'
 abbr -a -- . source
 abbr -a -- pie 'pip install -e'
+abbr -a -- sug 'sudo update-grub'
