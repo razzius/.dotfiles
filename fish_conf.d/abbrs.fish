@@ -311,3 +311,4 @@ abbr -a -- . source
 abbr -a -- pie 'pip install -e'
 abbr -a -- sug 'sudo update-grub'
 abbr -a -- js jshell
+abbr -a -- jsh jshell
