@@ -312,3 +312,6 @@ abbr -a -- pie 'pip install -e'
 abbr -a -- sug 'sudo update-grub'
 abbr -a -- js jshell
 abbr -a -- jsh jshell
+abbr -a -- glr 'git ls-remote'
+abbr -a -- gsu 'git switch-to-upstream-branch'
+abbr -a -- scm scheme
