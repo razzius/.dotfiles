@@ -315,3 +315,5 @@ abbr -a -- jsh jshell
 abbr -a -- glr 'git ls-remote'
 abbr -a -- gsu 'git switch-to-upstream-branch'
 abbr -a -- scm scheme
+abbr -a -- dush 'du -sh *'
+abbr -a -- uz clean-unzip
