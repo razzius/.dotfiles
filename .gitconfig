@@ -44,7 +44,7 @@
 	staged-files = diff --name-only --cached
 	start = !git init && hub create
 	undo-commit = reset --soft @^
-	untracked-files = ls-files --others --exclude-standard
+	untracked = ls-files --others --exclude-standard
 	stash-staged = "!\
 		git stash-unstaged > /dev/null &&\
 		git stash save > /dev/null &&\
