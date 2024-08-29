@@ -318,3 +318,4 @@ abbr -a -- scm scheme
 abbr -a -- dush 'du -sh *'
 abbr -a -- uz clean-unzip
 abbr -a -- tt taptempo
+abbr -a -- gsi 'git status --ignored'
