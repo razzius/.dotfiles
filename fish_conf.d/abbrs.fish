@@ -319,3 +319,6 @@ abbr -a -- dush 'du -sh *'
 abbr -a -- uz clean-unzip
 abbr -a -- tt taptempo
 abbr -a -- gsi 'git status --ignored'
+abbr -a -- mp multipass
+abbr -a -- gcl 'git clone'
+abbr -a -- gsh 'git shortlog'
