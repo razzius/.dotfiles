@@ -73,7 +73,6 @@ abbr -a -- f '~/forks'
 abbr -a -- fcc fish_clipboard_copy
 abbr -a -- fcp fish_clipboard_paste
 abbr -a -- fe 'funced -s'
-abbr -a -- ff '~/.config/fish'
 abbr -a -- ffns '~/.config/fish/functions'
 abbr -a -- fj '~/forks/fjord'
 abbr -a -- fl funced-last
@@ -322,3 +321,6 @@ abbr -a -- gsi 'git status --ignored'
 abbr -a -- mp multipass
 abbr -a -- gcl 'git clone'
 abbr -a -- gsh 'git shortlog'
+abbr -a -- de deactivate
+abbr -a -- gin 'git init'
+abbr -a -- ff fastfetch
