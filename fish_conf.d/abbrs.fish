@@ -325,3 +325,5 @@ abbr -a -- gin 'git init'
 abbr -a -- ff fastfetch
 abbr -a -- pxu 'pipx uninstall'
 abbr -a -- gft 'git fetch --tags'
+abbr -a -- pre prevd
+abbr -a -- cl clone-full-cd
