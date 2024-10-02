@@ -324,3 +324,5 @@ abbr -a -- gsh 'git shortlog'
 abbr -a -- de deactivate
 abbr -a -- gin 'git init'
 abbr -a -- ff fastfetch
+abbr -a -- pxu 'pipx uninstall'
+abbr -a -- gft 'git fetch --tags'
