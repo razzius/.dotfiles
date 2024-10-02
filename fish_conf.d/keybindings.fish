@@ -21,6 +21,7 @@ bind \cw backward-kill-word
 
 # Make A-bksp delete a whole word including special chars
 bind \u00FF backward-kill-bigword
+bind \e\x7F backward-kill-bigword # option-delete on mac
 
 # Bind paste using function to avoid 'clone-cd git clone'
 bind \cv paste_avoiding_double_git_clone
