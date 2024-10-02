@@ -41,7 +41,6 @@ abbr -a -- cd- 'cd -'
 abbr -a -- cdv '~/.vim'
 abbr -a -- cf '~/.config/fish/'
 abbr -a -- chownme 'sudo chown (whoami)'
-abbr -a -- clean-unzip Python-3.7.17.tar.xz
 abbr -a -- clj clojure
 abbr -a -- cmd command
 abbr -a -- cr 'cargo run'
