@@ -326,4 +326,7 @@ abbr -a -- ff fastfetch
 abbr -a -- pxu 'pipx uninstall'
 abbr -a -- gft 'git fetch --tags'
 abbr -a -- pre prevd
-abbr -a -- cl clone-full-cd
+abbr -a -- brwe brew
+abbr -a -- bui 'brew uninstall'
+abbr -a --position anywhere -- deiban debian
+abbr -a -- cl clone-shallow-cd
