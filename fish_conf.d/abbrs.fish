@@ -330,3 +330,4 @@ abbr -a -- brwe brew
 abbr -a -- bui 'brew uninstall'
 abbr -a --position anywhere -- deiban debian
 abbr -a -- cl clone-shallow-cd
+abbr -a --position anywhere -- tempalte template
