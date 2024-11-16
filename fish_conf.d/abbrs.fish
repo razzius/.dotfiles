@@ -331,3 +331,6 @@ abbr -a -- bui 'brew uninstall'
 abbr -a --position anywhere -- deiban debian
 abbr -a -- cl clone-shallow-cd
 abbr -a --position anywhere -- tempalte template
+abbr -a -- .p '~/.password-store'
+abbr -a -- dls '~/Downloads'
+abbr -a --position anywhere -- unisntall uninstall
