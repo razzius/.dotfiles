@@ -41,7 +41,6 @@ abbr -a -- cd- 'cd -'
 abbr -a -- cdv '~/.vim'
 abbr -a -- cf '~/.config/fish/'
 abbr -a -- chownme 'sudo chown (whoami)'
-abbr -a -- clj clojure
 abbr -a -- cmd command
 abbr -a -- cr 'cargo run'
 abbr -a -- cv cvlc
@@ -334,3 +333,4 @@ abbr -a --position anywhere -- tempalte template
 abbr -a -- .p '~/.password-store'
 abbr -a -- dls '~/Downloads'
 abbr -a --position anywhere -- unisntall uninstall
+abbr -a -- ae abbr-erase
