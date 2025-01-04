@@ -334,3 +334,6 @@ abbr -a -- .p '~/.password-store'
 abbr -a -- dls '~/Downloads'
 abbr -a --position anywhere -- unisntall uninstall
 abbr -a -- ae abbr-erase
+abbr -a -- r ruby
+abbr -a -- li lima
+abbr -a -- ks 'make serve'
