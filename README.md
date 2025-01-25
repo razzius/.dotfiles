@@ -33,7 +33,7 @@ See <https://razzi.abuissa.net/2023/10/11/gitignore-and-symlinks>.
 
 ```
 $ git clone git@git.sr.ht:~razzi/fish-functions ~/.config/fish
-$ symlink fish_conf.d ~/.config/fish/conf.d
+$ symlink ~/.dotfiles/fish_conf.d ~/.config/fish/conf.d
 ```
 
 ## kitty
