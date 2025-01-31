@@ -337,3 +337,4 @@ abbr -a -- ae abbr-erase
 abbr -a -- r ruby
 abbr -a -- li lima
 abbr -a -- ks 'make serve'
+abbr -a -- c- 'chmod 400'
