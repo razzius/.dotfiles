@@ -4,6 +4,23 @@
 $ git clone git@git.sr.ht:~razzi/.dotfiles ~/.dotfiles
 ```
 
+## fish
+
+Config from this repo is added to <https://git.sr.ht/~razzi/fish-functions>.
+
+See <https://razzi.abuissa.net/2023/10/11/gitignore-and-symlinks>.
+
+```
+$ git clone git@git.sr.ht:~razzi/fish-functions ~/.config/fish
+$ symlink ~/.dotfiles/fish_conf.d ~/.config/fish/conf.d
+```
+
+## git
+
+```
+$ link-rc .gitconfig
+```
+
 ## keyd
 
 ```
@@ -23,17 +40,6 @@ export RIPGREP_CONFIG_PATH=$HOME/.rgrc
 
 ```
 ln -s (pwd)/sway.conf ~/.config/sway/config
-```
-
-## fish
-
-Config from this repo is added to <https://git.sr.ht/~razzi/fish-functions>.
-
-See <https://razzi.abuissa.net/2023/10/11/gitignore-and-symlinks>.
-
-```
-$ git clone git@git.sr.ht:~razzi/fish-functions ~/.config/fish
-$ symlink ~/.dotfiles/fish_conf.d ~/.config/fish/conf.d
 ```
 
 ## kitty
