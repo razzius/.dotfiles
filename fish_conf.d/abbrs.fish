@@ -339,3 +339,4 @@ abbr -a -- li lima
 abbr -a -- ks 'make serve'
 abbr -a -- c- 'chmod 400'
 abbr -a -- ph 'python -m http.server'
+abbr -a --position anywhere -- epmty empty
