@@ -341,3 +341,5 @@ abbr -a -- c- 'chmod 400'
 abbr -a -- ph 'python -m http.server'
 abbr -a --position anywhere -- epmty empty
 abbr -a --position anywhere -- isntall install
+abbr -a --position anywhere -- instll install
+abbr -a -- grpe grep
