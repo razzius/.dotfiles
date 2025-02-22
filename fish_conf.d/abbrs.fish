@@ -343,3 +343,6 @@ abbr -a --position anywhere -- epmty empty
 abbr -a --position anywhere -- isntall install
 abbr -a --position anywhere -- instll install
 abbr -a -- grpe grep
+abbr -a -- lri 'luarocks install'
+abbr -a --position anywhere -- edn end
+abbr -a -- lis lima-ssh
