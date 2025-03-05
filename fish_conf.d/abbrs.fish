@@ -345,3 +345,6 @@ abbr -a -- lri 'luarocks install'
 abbr -a --position anywhere -- edn end
 abbr -a -- lis lima-ssh
 abbr -a --position anywhere -- versoin version
+abbr -a -- piu 'pip install --upgrade'
+abbr -a -- c. 'cmake ..'
+abbr -a --position anywhere -- bild build
