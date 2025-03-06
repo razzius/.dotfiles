@@ -1,2 +1,5 @@
 [main]
 capslock = layer(control)
+
+# Maps alt to escape when pressed alone and alt when held
+leftmeta = overload(meta, esc)
