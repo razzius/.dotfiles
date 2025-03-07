@@ -2,7 +2,6 @@ abbr -a -- - 'cd -'
 abbr -a -- .c ./configure
 abbr -a -- .e '~/.emacs.d'
 abbr -a -- .f '~/.config/fish'
-abbr -a -- .gi gitignore
 abbr -a -- .s '~/.dotfiles'
 abbr -a -- .t 'vim ~/.tmux.conf'
 abbr -a -- .v '~/.vim'
@@ -38,7 +37,6 @@ abbr -a -- c4 'chmod 400'
 abbr -a -- ca cat
 abbr -a -- cc clone-cd
 abbr -a -- cd- 'cd -'
-abbr -a -- cdv '~/.vim'
 abbr -a -- cf '~/.config/fish/'
 abbr -a -- chownme 'sudo chown (whoami)'
 abbr -a -- cmd command
