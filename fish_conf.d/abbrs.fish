@@ -350,3 +350,4 @@ abbr -a --position anywhere -- unisntall uninstall
 abbr -a --position anywhere -- versoin version
 abbr -a --set-cursor='%' -- gcm 'git commit -m "%"'
 abbr -a --set-cursor='%' -- rmw 'remove (which %)'
+abbr -a -- lil 'limactl list'
