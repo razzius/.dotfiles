@@ -1,10 +1,7 @@
 abbr -a -- - 'cd -'
-abbr -a -- . source
-abbr -a -- .a '~/.vim/plugins/razzi-abbrevs'
 abbr -a -- .c ./configure
 abbr -a -- .e '~/.emacs.d'
 abbr -a -- .f '~/.config/fish'
-abbr -a -- .p '~/.password-store'
 abbr -a -- .s '~/.dotfiles'
 abbr -a -- .t 'vim ~/.tmux.conf'
 abbr -a -- .v '~/.vim'
@@ -22,7 +19,6 @@ abbr -a -- ach 'apt changelog'
 abbr -a -- acs 'apt-cache search --names-only'
 abbr -a -- act cat
 abbr -a -- ad apt-description
-abbr -a -- ae abbr-erase
 abbr -a -- af 'apt-file find'
 abbr -a -- ai 'sudo apt install -y'
 abbr -a -- al 'apt list'
@@ -33,24 +29,16 @@ abbr -a -- ap apropos
 abbr -a -- ar 'sudo apt remove'
 abbr -a -- ari 'apt rdepends --installed'
 abbr -a -- ash 'apt show'
-abbr -a -- au 'sudo apt upgrade -y'
 abbr -a -- bi 'brew install'
 abbr -a -- bl black
 abbr -a -- br 'bat README.md'
-abbr -a -- brwe brew
-abbr -a -- bui 'brew uninstall'
 abbr -a -- c cd
-abbr -a -- c- 'chmod 400'
-abbr -a -- c. 'cmake ..'
 abbr -a -- c4 'chmod 400'
 abbr -a -- ca cat
 abbr -a -- cc clone-cd
 abbr -a -- cd- 'cd -'
 abbr -a -- cf '~/.config/fish/'
 abbr -a -- chownme 'sudo chown (whoami)'
-abbr -a -- cl clone-shallow-cd
-abbr -a -- cm cmake
-abbr -a -- cm. 'cmake ..'
 abbr -a -- cmd command
 abbr -a -- cr 'cargo run'
 abbr -a -- cv cvlc
@@ -58,19 +46,15 @@ abbr -a -- cx 'chmod +x'
 abbr -a -- cz clean-unzip
 abbr -a -- d podman
 abbr -a -- d. 'podman build .'
-abbr -a -- de deactivate
-abbr -a -- desc describe
 abbr -a -- dev 'git switch develop'
 abbr -a -- digs 'dig +short'
 abbr -a -- dj django-admin
 abbr -a -- dl 'podman run -it (last-image-built)'
-abbr -a -- dls '~/Downloads'
 abbr -a -- docs '~/Documents'
 abbr -a -- dots '~/.dotfiles'
 abbr -a -- dow '~/Downloads'
 abbr -a -- dr 'podman run -it'
 abbr -a -- dsp 'docker system prune'
-abbr -a -- dush 'du -sh *'
 abbr -a -- e edit
 abbr -a -- eab 'vim ~/.config/fish/conf.d/abbrs.fish '
 abbr -a -- ech echo
@@ -85,7 +69,6 @@ abbr -a -- f '~/forks'
 abbr -a -- fcc fish_clipboard_copy
 abbr -a -- fcp fish_clipboard_paste
 abbr -a -- fe 'funced -s'
-abbr -a -- ff fastfetch
 abbr -a -- ffns '~/.config/fish/functions'
 abbr -a -- fj '~/forks/fjord'
 abbr -a -- fl funced-last
@@ -103,29 +86,21 @@ abbr -a -- gau 'git add -u'
 abbr -a -- gb 'git branch'
 abbr -a -- gbl 'git blame'
 abbr -a -- gbm 'git branch -m'
-abbr -a -- gbs 'git branch --set-upstream-to origin/main main'
 abbr -a -- gc git-commit
 abbr -a -- gca 'git commit --amend'
 abbr -a -- gcae 'git commit --amend --no-edit'
 abbr -a -- gcan 'git commit --amend --no-edit'
-abbr -a -- gcid 'git commit-id'
-abbr -a -- gcl 'git clone'
-abbr -a -- gclean 'git clean -xdi'
 abbr -a -- gcp 'git cherry-pick'
 abbr -a -- gd 'git diff'
 abbr -a -- gf 'git fetch'
-abbr -a -- gft 'git fetch --tags'
 abbr -a -- gfu 'git fetch --unshallow'
 abbr -a -- gg 'git grep'
 abbr -a -- gi 'gem install'
 abbr -a -- gig 'git status --ignored'
-abbr -a -- gin 'git init'
 abbr -a -- giti gitignore
 abbr -a -- gl 'git pull'
 abbr -a -- glg 'git log'
-abbr -a -- glr 'git ls-remote'
 abbr -a -- gm 'git merge'
-abbr -a -- gma 'git merge --abort'
 abbr -a -- gn 'git new'
 abbr -a -- gp 'git push'
 abbr -a -- gpf 'git push --force-with-lease'
@@ -144,18 +119,12 @@ abbr -a -- grhu 'git reset --hard upstream'
 abbr -a -- grim 'git rebase -i main'
 abbr -a -- grm 'git rebase main'
 abbr -a -- grom 'git rebase origin main'
-abbr -a -- grpe grep
 abbr -a -- grr 'git remote rename'
 abbr -a -- grrm 'git remote remove'
 abbr -a -- grv 'git remote -v'
 abbr -a -- gs 'git status'
 abbr -a -- gsd 'git stash drop'
-abbr -a -- gsh 'git shortlog'
-abbr -a -- gsi 'git status --ignored'
-abbr -a -- gsl 'git stash list'
-abbr -a -- gss 'git stash show'
 abbr -a -- gst 'git stash'
-abbr -a -- gsu 'git switch-to-upstream-branch'
 abbr -a -- gsui 'git submodule update --init --recursive'
 abbr -a -- gt 'git to'
 abbr -a -- gu gunicorn
@@ -163,7 +132,6 @@ abbr -a -- gw 'git show'
 abbr -a -- h '~/hack'
 abbr -a -- hg hugo
 abbr -a -- hibernate 'systemctl hibernate'
-abbr -a -- hist history
 abbr -a -- hu hugo
 abbr -a -- i ipython
 abbr -a -- ins init-sourcehut
@@ -171,26 +139,18 @@ abbr -a -- j 'sudo journalctl'
 abbr -a -- jb 'jekyll build'
 abbr -a -- jks 'jekyll serve'
 abbr -a -- jn 'jupyter notebook'
-abbr -a -- js jshell
-abbr -a -- jsh jshell
 abbr -a -- k make
 abbr -a -- k1 'kill %1'
 abbr -a -- kc 'make clean'
 abbr -a -- ki 'make install'
 abbr -a -- kk 'make clean && make'
 abbr -a -- kl 'make lint'
-abbr -a -- ks 'make serve'
 abbr -a -- kt 'make test'
 abbr -a -- ku 'make uninstall'
 abbr -a -- l ls
 abbr -a -- les less
-abbr -a -- lf 'systemctl list-units --failed'
 abbr -a -- lh 'ls -lahtr'
-abbr -a -- li lima
-abbr -a -- lih 'lima halt'
-abbr -a -- lis lima-ssh
 abbr -a -- lrc link-rc
-abbr -a -- lri 'luarocks install'
 abbr -a -- lt 'lein test'
 abbr -a -- m 'git switch main'
 abbr -a -- main 'git switch main'
@@ -199,12 +159,10 @@ abbr -a -- mdkir mkdir
 abbr -a -- mkd mkdir
 abbr -a -- mkdirp 'mkdir -p'
 abbr -a -- ml move-last-download
-abbr -a -- mp multipass
 abbr -a -- mr 'make run'
 abbr -a -- ms 'make setup'
 abbr -a -- msb 'meson setup build'
 abbr -a -- mu '~/Music'
-abbr -a -- mv move
 abbr -a -- mvl move-last-download
 abbr -a -- nb newsboat
 abbr -a -- nd nextd
@@ -234,20 +192,16 @@ abbr -a -- pd prevd
 abbr -a -- pei 'pipenv install'
 abbr -a -- perm 'pipenv --rm'
 abbr -a -- pes 'pipenv shell'
-abbr -a -- ph 'python -m http.server'
 abbr -a -- pi 'pip install'
-abbr -a -- pie 'pip install -e'
 abbr -a -- pin 'poetry init -q'
 abbr -a -- pio 'parcel index.html --open'
 abbr -a -- pir 'pip install -r requirements.txt'
-abbr -a -- piu 'pip install --upgrade'
 abbr -a -- pk 'pkill -i'
 abbr -a -- pl play
 abbr -a -- pm 'python -m'
 abbr -a -- poi 'poetry install'
 abbr -a -- pop 'git stash pop'
 abbr -a -- pos 'poetry shell'
-abbr -a -- pre prevd
 abbr -a -- prj '~/projects'
 abbr -a -- prm 'poetry remove'
 abbr -a -- pt pytest
@@ -256,9 +210,7 @@ abbr -a -- pu 'pip uninstall -y'
 abbr -a -- pvv 'python -m venv venv'
 abbr -a -- pws '~/.password-store/'
 abbr -a -- pxi 'pipx install'
-abbr -a -- pxu 'pipx uninstall'
 abbr -a -- q query
-abbr -a -- r ruby
 abbr -a -- rdi 'apt rdepends --installed'
 abbr -a -- re 'git restore'
 abbr -a -- rl rlwrap
@@ -273,7 +225,6 @@ abbr -a -- rs 'django-admin runserver'
 abbr -a -- s ssh
 abbr -a -- s-s ssh-segfault
 abbr -a -- sc 'git switch -c'
-abbr -a -- scm scheme
 abbr -a -- se 'apt search'
 abbr -a -- sf ssh-segfault
 abbr -a -- sk shellcheck
@@ -282,7 +233,6 @@ abbr -a -- smi 'sudo make install'
 abbr -a -- so source
 abbr -a -- sp 'source ~/.profile'
 abbr -a -- sr 'string replace'
-abbr -a -- sug 'sudo update-grub'
 abbr -a -- sv 'source venv/bin/activate.fish'
 abbr -a -- sw 'git switch'
 abbr -a -- sy symlink
@@ -290,46 +240,36 @@ abbr -a -- sym symlink
 abbr -a -- syn sync-repos
 abbr -a -- syr 'sudo systemctl restart'
 abbr -a -- sys systemctl
-abbr -a -- t "vim '+terminal ++curwin'"
+abbr -a -- t vim\ \'+terminal\ ++curwin\'
 abbr -a -- tali tail
-abbr -a -- tarl 'tar --list --file'
 abbr -a -- tm tmux
-abbr -a -- tt taptempo
-abbr -a -- tun tunnel
 abbr -a -- tz tgz
-abbr -a -- u 'sudo apt update && apt list --upgradable'
 abbr -a -- ug 'sudo apt upgrade -y'
 abbr -a -- uns unsymlink
 abbr -a -- up 'sudo apt update'
 abbr -a -- us unsymlink
-abbr -a -- uz clean-unzip
 abbr -a -- v vim
 abbr -a -- vbu 'vagrant box update'
 abbr -a -- vc 'vim ~/.config/fish/config.fish'
 abbr -a -- vd 'vagrant destroy'
 abbr -a -- vdf 'vagrant destroy --force'
-abbr -a -- vf 'vim +:Files'
 abbr -a -- vg vagrant
 abbr -a -- vh 'vagrant halt'
 abbr -a -- vi vim
 abbr -a -- vimc vim-client
 abbr -a -- vip vim-plugin
-abbr -a -- vmux "vim '+term ++curwin' +term"
+abbr -a -- vmux vim\ \'+term\ ++curwin\'\ +term
 abbr -a -- vp 'vagrant provision'
 abbr -a -- vr 'vim README.md'
 abbr -a -- vs 'vagrant ssh'
 abbr -a -- vst 'vagrant status'
-abbr -a -- vt "vim '+term ++curwin'"
+abbr -a -- vt vim\ \'+term\ ++curwin\'
 abbr -a -- vu 'vagrant up'
 abbr -a -- vv 'vim ~/.vim/vimrc'
 abbr -a -- w weechat
-abbr -a -- wcl 'wc -l'
 abbr -a -- wg wget
 abbr -a -- wgm 'wget --mirror'
-abbr -a -- wh which
-abbr -a -- whcih which
 abbr -a -- wl weechat-login
-abbr -a -- wmc wmctrl
 abbr -a -- wn wikinews
 abbr -a -- wslv wslview
 abbr -a -- x exit
@@ -339,15 +279,77 @@ abbr -a -- yb 'yarn build'
 abbr -a -- ys 'yarn start'
 abbr -a -- zz '~/forks/razzi.abuissa.net'
 abbr -a --position anywhere -- --ver --version
-abbr -a --position anywhere -- bild build
-abbr -a --position anywhere -- deiban debian
-abbr -a --position anywhere -- edn end
-abbr -a --position anywhere -- epmty empty
-abbr -a --position anywhere -- instll install
-abbr -a --position anywhere -- isntall install
-abbr -a --position anywhere -- tempalte template
-abbr -a --position anywhere -- unisntall uninstall
-abbr -a --position anywhere -- versoin version
-abbr -a --set-cursor='%' -- gcm 'git commit -m "%"'
 abbr -a --set-cursor='%' -- rmw 'remove (which %)'
-abbr -a -- lil 'limactl list'
+abbr -a -- wcl 'wc -l'
+abbr -a -- gma 'git merge --abort'
+abbr -a --set-cursor='%' -- gcm 'git commit -m "%"'
+abbr -a -- hist history
+abbr -a -- desc describe
+abbr -a -- tun tunnel
+abbr -a -- gcid 'git commit-id'
+abbr -a -- wmc wmctrl
+abbr -a -- tarl 'tar --list --file'
+abbr -a -- u 'sudo apt update && apt list --upgradable'
+abbr -a -- vf 'vim +:Files'
+abbr -a -- whcih which
+abbr -a -- wh which
+abbr -a -- gsl 'git stash list'
+abbr -a -- gss 'git stash show'
+abbr -a -- mv move
+abbr -a -- cm cmake
+abbr -a -- cm. 'cmake ..'
+abbr -a -- lf 'systemctl list-units --failed'
+abbr -a -- gbs 'git branch --set-upstream-to origin/main main'
+abbr -a -- au 'sudo apt upgrade -y'
+abbr -a -- gclean 'git clean -xdi'
+abbr -a -- . source
+abbr -a -- pie 'pip install -e'
+abbr -a -- sug 'sudo update-grub'
+abbr -a -- js jshell
+abbr -a -- jsh jshell
+abbr -a -- glr 'git ls-remote'
+abbr -a -- gsu 'git switch-to-upstream-branch'
+abbr -a -- scm scheme
+abbr -a -- dush 'du -sh *'
+abbr -a -- uz clean-unzip
+abbr -a -- tt taptempo
+abbr -a -- gsi 'git status --ignored'
+abbr -a -- mp multipass
+abbr -a -- gcl 'git clone'
+abbr -a -- gsh 'git shortlog'
+abbr -a -- de deactivate
+abbr -a -- gin 'git init'
+abbr -a -- ff fastfetch
+abbr -a -- pxu 'pipx uninstall'
+abbr -a -- gft 'git fetch --tags'
+abbr -a -- pre prevd
+abbr -a -- brwe brew
+abbr -a -- bui 'brew uninstall'
+abbr -a --position anywhere -- deiban debian
+abbr -a -- cl clone-shallow-cd
+abbr -a --position anywhere -- tempalte template
+abbr -a -- .p '~/.password-store'
+abbr -a -- dls '~/Downloads'
+abbr -a --position anywhere -- unisntall uninstall
+abbr -a -- ae abbr-erase
+abbr -a -- r ruby
+abbr -a -- li lima
+abbr -a -- ks 'make serve'
+abbr -a -- c- 'chmod 400'
+abbr -a -- ph 'python -m http.server'
+abbr -a --position anywhere -- epmty empty
+abbr -a --position anywhere -- isntall install
+abbr -a --position anywhere -- instll install
+abbr -a -- grpe grep
+abbr -a -- lri 'luarocks install'
+abbr -a --position anywhere -- edn end
+abbr -a -- lis lima-ssh
+abbr -a --position anywhere -- versoin version
+abbr -a -- piu 'pip install --upgrade'
+abbr -a -- c. 'cmake ..'
+abbr -a --position anywhere -- bild build
+abbr -a -- lst 'limactl start'
+abbr -a -- lls 'limactl list'
+abbr -a -- lc limactl
+abbr -a -- bd bundle
+abbr -a -- bdi 'bundle install'
