@@ -353,3 +353,4 @@ abbr -a -- lls 'limactl list'
 abbr -a -- lc limactl
 abbr -a -- bd bundle
 abbr -a -- bdi 'bundle install'
+abbr -a -- kd 'make deploy'
