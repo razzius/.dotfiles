@@ -240,7 +240,7 @@ abbr -a -- sym symlink
 abbr -a -- syn sync-repos
 abbr -a -- syr 'sudo systemctl restart'
 abbr -a -- sys systemctl
-abbr -a -- t vim\ \'+terminal\ ++curwin\'
+abbr -a -- t "vim '+terminal ++curwin'"
 abbr -a -- tali tail
 abbr -a -- tm tmux
 abbr -a -- tz tgz
@@ -258,12 +258,12 @@ abbr -a -- vh 'vagrant halt'
 abbr -a -- vi vim
 abbr -a -- vimc vim-client
 abbr -a -- vip vim-plugin
-abbr -a -- vmux vim\ \'+term\ ++curwin\'\ +term
+abbr -a -- vmux "vim '+term ++curwin' +term"
 abbr -a -- vp 'vagrant provision'
 abbr -a -- vr 'vim README.md'
 abbr -a -- vs 'vagrant ssh'
 abbr -a -- vst 'vagrant status'
-abbr -a -- vt vim\ \'+term\ ++curwin\'
+abbr -a -- vt "vim '+term ++curwin'"
 abbr -a -- vu 'vagrant up'
 abbr -a -- vv 'vim ~/.vim/vimrc'
 abbr -a -- w weechat
@@ -353,4 +353,7 @@ abbr -a -- lls 'limactl list'
 abbr -a -- lc limactl
 abbr -a -- bd bundle
 abbr -a -- bdi 'bundle install'
+abbr -a -- lcl 'limactl list'
+abbr -a -- gpgh 'git push github'
 abbr -a -- kd 'make deploy'
+abbr -a -- lcs 'limactl stop'

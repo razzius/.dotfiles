@@ -1,6 +1,6 @@
 [user]
-	name = Razzi Abuissa
 	email = razzi@abuissa.net
+	name = Razzi Abuissa
 [alias]
 	assumed-unchanged = "!git ls-files -v | grep '^[a-z]' | awk '{print $2}'"
 	branch-exists = "!git show-ref --quiet refs/heads/$1 #"
