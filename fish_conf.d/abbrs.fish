@@ -246,7 +246,6 @@ abbr -a -- tm tmux
 abbr -a -- tz tgz
 abbr -a -- ug 'sudo apt upgrade -y'
 abbr -a -- uns unsymlink
-abbr -a -- up 'sudo apt update'
 abbr -a -- us unsymlink
 abbr -a -- v vim
 abbr -a -- vbu 'vagrant box update'
@@ -300,7 +299,6 @@ abbr -a -- cm cmake
 abbr -a -- cm. 'cmake ..'
 abbr -a -- lf 'systemctl list-units --failed'
 abbr -a -- gbs 'git branch --set-upstream-to origin/main main'
-abbr -a -- au 'sudo apt upgrade -y'
 abbr -a -- gclean 'git clean -xdi'
 abbr -a -- . source
 abbr -a -- pie 'pip install -e'
@@ -357,3 +355,5 @@ abbr -a -- lcl 'limactl list'
 abbr -a -- gpgh 'git push github'
 abbr -a -- kd 'make deploy'
 abbr -a -- lcs 'limactl stop'
+abbr -a -- au 'sudo apt update'
+abbr -a -- di 'sudo dpkg -i'
