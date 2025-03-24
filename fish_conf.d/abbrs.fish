@@ -245,7 +245,6 @@ abbr -a -- tali tail
 abbr -a -- tm tmux
 abbr -a -- tz tgz
 abbr -a -- ug 'sudo apt upgrade -y'
-abbr -a -- uns unsymlink
 abbr -a -- us unsymlink
 abbr -a -- v vim
 abbr -a -- vbu 'vagrant box update'
@@ -357,3 +356,5 @@ abbr -a -- kd 'make deploy'
 abbr -a -- lcs 'limactl stop'
 abbr -a -- au 'sudo apt update'
 abbr -a -- di 'sudo dpkg -i'
+abbr -a -- fi fish
+abbr -a -- cp copy
