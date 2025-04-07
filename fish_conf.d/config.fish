@@ -6,7 +6,7 @@ function postexec-source-profile --on-event fish_postexec
     set command_line (echo $argv | string collect)
 
     if string match -qr "^$EDITOR " "$command_line"
-        set file (echo $command_line | coln 2 | string replace '~' $HOME)
+        set file (echo $command_line | coln 2 | expand-home-tilde)
         set fish_config_files ~/.profile ~/.config/fish/conf.d/config.fish
 
         if contains -- $file $fish_config_files
