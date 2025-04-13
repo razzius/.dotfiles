@@ -358,3 +358,6 @@ abbr -a -- au 'sudo apt update'
 abbr -a -- di 'sudo dpkg -i'
 abbr -a -- fi fish
 abbr -a -- cp copy
+abbr -a -- lsh 'limactl shell'
+abbr -a -- pv 'python3 -m venv venv'
+abbr -a --position anywhere -- --versoin --version
