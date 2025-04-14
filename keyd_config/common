@@ -3,3 +3,9 @@ capslock = layer(control)
 
 # Maps alt to escape when pressed alone and alt when held
 leftmeta = overload(meta, esc)
+
+# Rightalt+space to alt+tab
+# (currently only swaps between 2 most recent windows)
+# [meta]
+# space = A-tab
+# Note: it might work to have meta-space go to alt, then send tab, then release both?
