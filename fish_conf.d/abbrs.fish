@@ -362,3 +362,4 @@ abbr -a -- lsh 'limactl shell'
 abbr -a -- pv 'python3 -m venv venv'
 abbr -a --position anywhere -- --versoin --version
 abbr -a -- pi. 'pip install --editable .'
+abbr -a -- .k '~/.dotfiles/keyd_config'
