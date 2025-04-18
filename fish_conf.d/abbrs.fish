@@ -363,3 +363,7 @@ abbr -a -- pv 'python3 -m venv venv'
 abbr -a --position anywhere -- --versoin --version
 abbr -a -- pi. 'pip install --editable .'
 abbr -a -- .k '~/.dotfiles/keyd_config'
+abbr -a --set-cursor='%' -- gcm 'git commit -m "%"'
+abbr -a --set-cursor='%' -- rmw 'remove (which %)'
+abbr -a -- lil 'limactl list'
+abbr -a -- des '~/Desktop'
