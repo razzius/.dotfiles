@@ -367,3 +367,4 @@ abbr -a --set-cursor='%' -- gcm 'git commit -m "%"'
 abbr -a --set-cursor='%' -- rmw 'remove (which %)'
 abbr -a -- lil 'limactl list'
 abbr -a -- des '~/Desktop'
+abbr -a -- conv convert
