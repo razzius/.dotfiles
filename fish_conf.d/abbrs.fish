@@ -277,10 +277,8 @@ abbr -a -- yb 'yarn build'
 abbr -a -- ys 'yarn start'
 abbr -a -- zz '~/forks/razzi.abuissa.net'
 abbr -a --position anywhere -- --ver --version
-abbr -a --set-cursor='%' -- rmw 'remove (which %)'
 abbr -a -- wcl 'wc -l'
 abbr -a -- gma 'git merge --abort'
-abbr -a --set-cursor='%' -- gcm 'git commit -m "%"'
 abbr -a -- hist history
 abbr -a -- desc describe
 abbr -a -- tun tunnel
@@ -368,3 +366,4 @@ abbr -a --set-cursor='%' -- rmw 'remove (which %)'
 abbr -a -- lil 'limactl list'
 abbr -a -- des '~/Desktop'
 abbr -a -- conv convert
+abbr -a -- .a '~/.vim/plugins/razzi-abbrevs'
