@@ -56,5 +56,5 @@ ln -s $(pwd)/kitty.conf ~/.config/kitty/
 ## tmux
 
 ```
-ln -s $(pwd)/.tmux.conf ~
+link-rc .tmux.conf
 ```
