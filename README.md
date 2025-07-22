@@ -11,6 +11,11 @@ Config from this repo is added to <https://git.sr.ht/~razzi/fish-functions>.
 See <https://razzi.abuissa.net/2023/10/11/gitignore-and-symlinks>.
 
 ```
+# fish will create some default files in this directory
+# so we have to remove it before cloning.
+# Be careful not to remove your own config
+$ rm -r ~/.config/fish
+
 $ git clone git@git.sr.ht:~razzi/fish-functions ~/.config/fish
 $ symlink ~/.dotfiles/fish_conf.d ~/.config/fish/conf.d
 ```
