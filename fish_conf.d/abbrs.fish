@@ -367,3 +367,4 @@ abbr -a -- lil 'limactl list'
 abbr -a -- des '~/Desktop'
 abbr -a -- conv convert
 abbr -a -- .a '~/.vim/plugins/razzi-abbrevs'
+abbr -a -- pn pnpm
