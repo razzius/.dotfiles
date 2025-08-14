@@ -370,3 +370,4 @@ abbr -a -- .a '~/.vim/plugins/razzi-abbrevs'
 abbr -a -- pn pnpm
 abbr -a --position anywhere -- instlal install
 abbr -a -- piup 'pip install --upgrade pip'
+abbr -a --set-cursor='%' -- ma "math '%'"
