@@ -1,0 +1,26 @@
+set key_name [lindex $argv 0];
+
+if { $key_name eq "" } {
+        puts "Usage: expect trust_gpg.exp KEYNAME"
+        exit 1
+}
+
+spawn gpg --edit-key $key_name
+
+expect "gpg> "
+
+send "trust\n"
+
+expect "Your decision? "
+
+send "5\n"
+
+expect "Do you really want to set this key to ultimate trust? (y/N) "
+
+send "y\n"
+
+expect "gpg> "
+
+send "quit\n"
+
+expect eof
