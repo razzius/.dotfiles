@@ -1,6 +1,6 @@
 set -U fish_features ampersand-nobg-in-token,qmark-noglob
 
-test -e ~/.profile && source ~/.profile
+test -e ~/.fish_profile && source ~/.fish_profile
 
 function postexec-source-profile --on-event fish_postexec
     set command_line (echo $argv | string collect)
