@@ -10,7 +10,7 @@ function postexec-source-profile --on-event fish_postexec
     end
 
     set file (echo $command_line | coln 2 | expand-home-tilde)
-    set fish_config_files ~/.profile ~/.config/fish/conf.d/config.fish
+    set fish_config_files ~/.fish_profile ~/.config/fish/conf.d/config.fish
 
     if contains -- $file $fish_config_files
         echo -n "Sourcing "(echo $file | unexpand-home-tilde)"... "
