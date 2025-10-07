@@ -372,3 +372,4 @@ abbr -a --position anywhere -- instlal install
 abbr -a -- piup 'pip install --upgrade pip'
 abbr -a --set-cursor='%' -- ma "math '%'"
 abbr -a -- suod sudo
+abbr -a --position anywhere -- adn and
