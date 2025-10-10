@@ -373,3 +373,5 @@ abbr -a -- piup 'pip install --upgrade pip'
 abbr -a --set-cursor='%' -- ma "math '%'"
 abbr -a -- suod sudo
 abbr -a --position anywhere -- adn and
+abbr -a --position anywhere -- uninstlal uninstall
+abbr -a --position anywhere -- clena clean
