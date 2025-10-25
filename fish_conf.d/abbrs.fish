@@ -380,3 +380,5 @@ abbr -a -- typ typst
 abbr -a -- ty typst
 abbr -a -- cg cargo
 abbr -a -- ci 'cargo install'
+abbr -a --regex '^\\.\\.+$' --function multicd -- dotdot
+abbr -a --command git-add --regex '^\\.\\.+$' --function multicd git-add-dotdot
