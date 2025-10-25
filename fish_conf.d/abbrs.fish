@@ -381,4 +381,5 @@ abbr -a -- cg cargo
 abbr -a -- ci 'cargo install'
 abbr -a --regex '^\\.\\.+$' --function multicd -- dotdot
 abbr -a --regex '^\\.\\.+$' --position anywhere --function multicd --command git-add -- git-add-dotdot
+abbr -a --position anywhere -- enviornment environment
 abbr -a -- ep 'vim ~/.fish_profile'
