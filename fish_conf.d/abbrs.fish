@@ -62,7 +62,6 @@ abbr -a -- eco echo
 abbr -a -- ef 'exec fish'
 abbr -a -- ehco echo
 abbr -a -- eo echo
-abbr -a -- ep 'vim ~/.profile'
 abbr -a -- ev echo-variable
 abbr -a -- exp expect
 abbr -a -- f '~/forks'
@@ -382,3 +381,4 @@ abbr -a -- cg cargo
 abbr -a -- ci 'cargo install'
 abbr -a --regex '^\\.\\.+$' --function multicd -- dotdot
 abbr -a --command git-add --regex '^\\.\\.+$' --function multicd git-add-dotdot
+abbr -a -- ep 'vim ~/.fish_profile'
