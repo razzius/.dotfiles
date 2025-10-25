@@ -375,3 +375,8 @@ abbr -a -- suod sudo
 abbr -a --position anywhere -- adn and
 abbr -a --position anywhere -- uninstlal uninstall
 abbr -a --position anywhere -- clena clean
+abbr -a -- grp grep
+abbr -a -- typ typst
+abbr -a -- ty typst
+abbr -a -- cg cargo
+abbr -a -- ci 'cargo install'
