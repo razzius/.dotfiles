@@ -35,7 +35,7 @@ $ sudo ln -s (pwd)/keyd_config /etc/keyd
 ## rg
 
 ```
-$ ln -s (pwd)/.rgrc $HOME/.rgrc
+$ link-rc .rgrc
 
 ## Set in .profile
 export RIPGREP_CONFIG_PATH=$HOME/.rgrc
