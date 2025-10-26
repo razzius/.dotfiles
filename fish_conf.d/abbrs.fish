@@ -395,6 +395,6 @@ abbr -a -- bsl 'brew services list'
 abbr -a -- bs 'brew services'
 abbr -a --position anywhere -- nignx nginx
 abbr -a --set-cursor='%' -- fd. "fd '\\.%\$'"
-+abbr -a --position anywhere -- servieces services
-+abbr -a --position anywhere -- extensino extension
-+abbr -a --position anywhere -- extesino extension
+abbr -a --position anywhere -- servieces services
+abbr -a --position anywhere -- extensino extension
+abbr -a --position anywhere -- extesino extension
