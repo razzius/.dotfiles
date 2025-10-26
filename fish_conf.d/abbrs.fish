@@ -391,3 +391,7 @@ abbr -a -- tre tree
 abbr -a --position anywhere -- anywhre anywhere
 abbr -a --position anywhere --command abbr-add -- -pa '--position anywhere'
 abbr -a --position anywhere -- direcotires directories
+abbr -a -- bsl 'brew services list'
+abbr -a -- bs 'brew services'
+abbr -a --position anywhere -- nignx nginx
+abbr -a --set-cursor='%' -- fd. "fd '\\.%\$'"
