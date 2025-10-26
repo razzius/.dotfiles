@@ -76,7 +76,6 @@ abbr -a -- fns functions
 abbr -a -- fp fish_clipboard_paste
 abbr -a -- fr 'flask run'
 abbr -a -- fs funcsave-last
-abbr -a -- g git
 abbr -a -- g- 'git switch -'
 abbr -a -- ga git-add
 abbr -a -- ga.. 'git-add ..'
@@ -383,3 +382,12 @@ abbr -a --regex '^\\.\\.+$' --function multicd -- dotdot
 abbr -a --regex '^\\.\\.+$' --position anywhere --function multicd --command git-add -- git-add-dotdot
 abbr -a --position anywhere -- enviornment environment
 abbr -a -- ep 'vim ~/.fish_profile'
+abbr -a --position anywhere -- visualy visually
+abbr -a -- g git
+abbr -a --position anywhere -- wiht with
+abbr -a --position anywhere -- --pos --position
+abbr -a --position anywhere -- docuemnt document
+abbr -a -- tre tree
+abbr -a --position anywhere -- anywhre anywhere
+abbr -a --position anywhere --command abbr-add -- -pa '--position anywhere'
+abbr -a --position anywhere -- direcotires directories
