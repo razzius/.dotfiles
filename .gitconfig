@@ -3,7 +3,6 @@
 	name = Razzi Abuissa
 [alias]
 	assumed-unchanged = "!git ls-files -v | grep '^[a-z]' | awk '{print $2}'"
-	branch-exists = "!git show-ref --quiet refs/heads/$1 #"
 	branch-names = for-each-ref --format='%(refname:short)' refs/heads
 	branch-updates = for-each-ref --sort='-authordate:iso8601' --format=' %(authordate:relative)%09%(refname:short)' refs/heads
 	clean-untracked = clean -f -d -X
@@ -27,8 +26,6 @@
 	new = diff --cached
 	new-files = diff --name-only --diff-filter=A --cached
 	pull-current = "!git pull origin $(git current)"
-	recommit = commit --amend
-	rename = branch -m
 	repo-name = "!basename $(git remote get-url origin) .git"
 	reset-last = reset @^
 	reset-submodule = submodule update
@@ -42,8 +39,6 @@
 	soft-merge = merge --no-commit --no-ff
 	staged-changes-commit = "!git log -n 1 --pretty=format:%H -- `git diff --cached --name-only`"
 	staged-files = diff --name-only --cached
-	start = !git init && hub create
-	undo-commit = reset --soft @^
 	untracked = ls-files --others --exclude-standard
 	stash-staged = "!\
 		git stash-unstaged > /dev/null &&\
@@ -65,7 +60,6 @@
 	#"
 	unstage = reset HEAD --
 	wdiff = diff --color-words
-	wipe = "!git reset --hard && git clean -fd"
 [core]
 	excludesfile = ~/.gitignore_global
 	pager = less --tabs=4 -RFX
