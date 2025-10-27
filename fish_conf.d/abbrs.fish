@@ -400,3 +400,4 @@ abbr -a --position anywhere -- extesino extension
 abbr -a --position anywhere -- udpate update
 abbr -a -- f8 flake8
 abbr -a -- e emacs
+abbr -a --position anywhere -- snpa snap
