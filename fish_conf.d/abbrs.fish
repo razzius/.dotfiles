@@ -405,3 +405,4 @@ abbr -a -- sduo sudo
 abbr -a -- whic which
 abbr -a -- kr 'sudo keyd reload'
 abbr -a -- km 'sudo keyd monitor'
+abbr -a -- mg magick
