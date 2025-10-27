@@ -55,7 +55,6 @@ abbr -a -- dots '~/.dotfiles'
 abbr -a -- dow '~/Downloads'
 abbr -a -- dr 'podman run -it'
 abbr -a -- dsp 'docker system prune'
-abbr -a -- e edit
 abbr -a -- eab 'vim ~/.config/fish/conf.d/abbrs.fish '
 abbr -a -- ech echo
 abbr -a -- eco echo
@@ -398,3 +397,6 @@ abbr -a --set-cursor='%' -- fd. "fd '\\.%\$'"
 abbr -a --position anywhere -- servieces services
 abbr -a --position anywhere -- extensino extension
 abbr -a --position anywhere -- extesino extension
+abbr -a --position anywhere -- udpate update
+abbr -a -- f8 flake8
+abbr -a -- e emacs
