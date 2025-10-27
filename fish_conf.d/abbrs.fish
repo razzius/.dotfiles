@@ -401,3 +401,7 @@ abbr -a --position anywhere -- udpate update
 abbr -a -- f8 flake8
 abbr -a -- e emacs
 abbr -a --position anywhere -- snpa snap
+abbr -a -- sduo sudo
+abbr -a -- whic which
+abbr -a -- kr 'sudo keyd reload'
+abbr -a -- km 'sudo keyd monitor'
