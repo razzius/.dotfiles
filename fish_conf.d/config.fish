@@ -21,13 +21,6 @@ function postexec-source-profile --on-event fish_postexec
     end
 end
 
-function save-edited-file --on-event fish_postexec
-    set command_line (echo $argv | string collect | string trim)
-    if string match -qr "^($EDITOR|edit) " "$command_line"
-        set -g editor_command $argv
-    end
-end
-
 if test -n "$VIM_TERMINAL"
     function _vim_sync_PWD --on-variable=PWD
         printf '\033]7;file://%s\033\\' "$PWD"
