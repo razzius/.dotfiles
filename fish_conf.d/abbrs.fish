@@ -406,3 +406,5 @@ abbr -a -- whic which
 abbr -a -- kr 'sudo keyd reload'
 abbr -a -- km 'sudo keyd monitor'
 abbr -a -- mg magick
+abbr -a -- bss 'brew services start'
+abbr -a -- bst 'brew services stop'
