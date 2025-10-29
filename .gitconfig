@@ -59,6 +59,7 @@
 		fi \
 	#"
 	unstage = reset HEAD --
+	upstream = !git rev-parse --abbrev-ref @{upstream} | cut -d / -f 1
 	wdiff = diff --color-words
 [core]
 	excludesfile = ~/.gitignore_global
