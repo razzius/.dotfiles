@@ -378,7 +378,7 @@ abbr -a -- ty typst
 abbr -a -- cg cargo
 abbr -a -- ci 'cargo install'
 abbr -a --regex '^\\.\\.+$' --function _multicd -- dotdot
-abbr -a --regex '^\\.\\.+$' --function _multicd --command git-add -- git-add-dotdot
+abbr -a --regex '^\\.\\.+$' --position anywhere --function _multicd --command git-add -- git-add-dotdot
 abbr -a --position anywhere -- enviornment environment
 abbr -a -- ep 'vim ~/.fish_profile'
 abbr -a --position anywhere -- visualy visually
@@ -411,3 +411,5 @@ abbr -a --position anywhere -- hadnlign handling
 abbr -a --position anywhere -- codebeg codeberg
 abbr -a -- e emacs
 abbr -a --position anywhere -- utliities utilities
+abbr -a --position anywhere -- recliaming reclaiming
+abbr -a --position anywhere -- reclaimgin reclaiming
