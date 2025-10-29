@@ -55,6 +55,7 @@ abbr -a -- dots '~/.dotfiles'
 abbr -a -- dow '~/Downloads'
 abbr -a -- dr 'podman run -it'
 abbr -a -- dsp 'docker system prune'
+abbr -a -- e edit
 abbr -a -- eab 'vim ~/.config/fish/conf.d/abbrs.fish '
 abbr -a -- ech echo
 abbr -a -- eco echo
@@ -377,8 +378,8 @@ abbr -a -- typ typst
 abbr -a -- ty typst
 abbr -a -- cg cargo
 abbr -a -- ci 'cargo install'
-abbr -a --regex '^\\.\\.+$' --function multicd -- dotdot
-abbr -a --regex '^\\.\\.+$' --position anywhere --function multicd --command git-add -- git-add-dotdot
+abbr -a --regex '^\\.\\.+$' --function _multicd -- dotdot
+abbr -a --regex '^\\.\\.+$' --function _multicd --command git-add -- git-add-dotdot
 abbr -a --position anywhere -- enviornment environment
 abbr -a -- ep 'vim ~/.fish_profile'
 abbr -a --position anywhere -- visualy visually
@@ -397,14 +398,7 @@ abbr -a --set-cursor='%' -- fd. "fd '\\.%\$'"
 abbr -a --position anywhere -- servieces services
 abbr -a --position anywhere -- extensino extension
 abbr -a --position anywhere -- extesino extension
-abbr -a --position anywhere -- udpate update
-abbr -a -- f8 flake8
-abbr -a -- e emacs
-abbr -a --position anywhere -- snpa snap
-abbr -a -- sduo sudo
-abbr -a -- whic which
-abbr -a -- kr 'sudo keyd reload'
-abbr -a -- km 'sudo keyd monitor'
-abbr -a -- mg magick
 abbr -a -- bss 'brew services start'
 abbr -a -- bst 'brew services stop'
+abbr -a --position anywhere -- naems names
+abbr -a -- rm. rmdir-.
