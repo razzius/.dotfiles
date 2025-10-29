@@ -52,7 +52,7 @@
 	switch-to-upstream-branch = "!git fetch origin $1 && git switch -c $1 FETCH_HEAD #"
 	tree = log --graph --oneline --all
 	to = "!\
-		if git branch-exists $1; then \
+		if git show-ref --quiet --branches $1; then \
 			git switch $1; \
 		else \
 			git switch -c $1; \
