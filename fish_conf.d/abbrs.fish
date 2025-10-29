@@ -55,7 +55,6 @@ abbr -a -- dots '~/.dotfiles'
 abbr -a -- dow '~/Downloads'
 abbr -a -- dr 'podman run -it'
 abbr -a -- dsp 'docker system prune'
-abbr -a -- e edit
 abbr -a -- eab 'vim ~/.config/fish/conf.d/abbrs.fish '
 abbr -a -- ech echo
 abbr -a -- eco echo
@@ -402,3 +401,13 @@ abbr -a -- bss 'brew services start'
 abbr -a -- bst 'brew services stop'
 abbr -a --position anywhere -- naems names
 abbr -a -- rm. rmdir-.
+abbr -a --position anywhere -- desroy destroy
+abbr -a --position anywhere -- cmaek cmake
+abbr -a -- abp 'abbr-add --position anywhere'
+abbr -a --position anywhere -- comand command
+abbr -a -- abg 'abbr | grep'
+abbr -a -- ver version
+abbr -a --position anywhere -- hadnlign handling
+abbr -a --position anywhere -- codebeg codeberg
+abbr -a -- e emacs
+abbr -a --position anywhere -- utliities utilities
