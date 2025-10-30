@@ -413,3 +413,4 @@ abbr -a -- e emacs
 abbr -a --position anywhere -- utliities utilities
 abbr -a --position anywhere -- recliaming reclaiming
 abbr -a --position anywhere -- reclaimgin reclaiming
+abbr -a -- gpa 'git push all'
