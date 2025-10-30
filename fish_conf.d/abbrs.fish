@@ -414,3 +414,14 @@ abbr -a --position anywhere -- utliities utilities
 abbr -a --position anywhere -- recliaming reclaiming
 abbr -a --position anywhere -- reclaimgin reclaiming
 abbr -a -- gpa 'git push all'
+abbr -a --position anywhere -- htlm html
+abbr -a --position anywhere -- soruce source
+abbr -a --position anywhere -- defaultng defaulting
+abbr -a --position anywhere -- defautilng defaulting
+abbr -a --position anywhere -- defautlign defaulting
+abbr -a --position anywhere -- defautling defaulting
+abbr -a --position anywhere -- defualting defaulting
+abbr -a --position anywhere -- dfeaulitng defaulting
+abbr -a --position anywhere -- dfeaultng defaulting
+abbr -a --position anywhere -- dfeautlign defaulting
+abbr -a --position anywhere -- documetnation documentation
