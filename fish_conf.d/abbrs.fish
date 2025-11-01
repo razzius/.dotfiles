@@ -68,7 +68,6 @@ abbr -a -- fcc fish_clipboard_copy
 abbr -a -- fcp fish_clipboard_paste
 abbr -a -- fe 'funced -s'
 abbr -a -- ffns '~/.config/fish/functions'
-abbr -a -- fj '~/forks/fjord'
 abbr -a -- fl funced-last
 abbr -a -- fn function
 abbr -a -- fns functions
@@ -403,7 +402,6 @@ abbr -a --position anywhere -- naems names
 abbr -a -- rm. rmdir-.
 abbr -a --position anywhere -- desroy destroy
 abbr -a --position anywhere -- cmaek cmake
-abbr -a -- abp 'abbr-add --position anywhere'
 abbr -a --position anywhere -- comand command
 abbr -a -- abg 'abbr | grep'
 abbr -a -- ver version
@@ -425,3 +423,7 @@ abbr -a --position anywhere -- dfeaulitng defaulting
 abbr -a --position anywhere -- dfeaultng defaulting
 abbr -a --position anywhere -- dfeautlign defaulting
 abbr -a --position anywhere -- documetnation documentation
+abbr -a --position anywhere -- upate update
+abbr -a -- abp 'abbr-add --position anywhere --'
+abbr -a --position anywhere -- -pritf -printf
+abbr -a --position anywhere -- curent current
