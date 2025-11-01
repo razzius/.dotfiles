@@ -1,7 +1,6 @@
 abbr -a -- - 'cd -'
 abbr -a -- .c ./configure
 abbr -a -- .e '~/.emacs.d'
-abbr -a -- .f '~/.config/fish'
 abbr -a -- .s '~/.dotfiles'
 abbr -a -- .t 'vim ~/.tmux.conf'
 abbr -a -- .v '~/.vim'
@@ -427,3 +426,14 @@ abbr -a --position anywhere -- upate update
 abbr -a -- abp 'abbr-add --position anywhere --'
 abbr -a --position anywhere -- -pritf -printf
 abbr -a --position anywhere -- curent current
+abbr -a --position anywhere -- strugglign struggling
+abbr -a --position anywhere -- contetns contents
+abbr -a --position anywhere -- .f '~/.config/fish'
+abbr -a --position anywhere -- keybindgs keybindings
+abbr -a --position anywhere -- keybidngs keybindings
+abbr -a --position anywhere -- nad and
+abbr -a --position anywhere -- someteims sometimes
+abbr -a -- lih 'limactl stop'
+abbr -a -- tyc 'typst compile'
+abbr -a --position anywhere -- naem name
+abbr -a --position anywhere -- -naem -name
