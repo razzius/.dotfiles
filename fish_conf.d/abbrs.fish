@@ -221,7 +221,6 @@ abbr -a -- s ssh
 abbr -a -- s-s ssh-segfault
 abbr -a -- sc 'git switch -c'
 abbr -a -- se 'apt search'
-abbr -a -- sf ssh-segfault
 abbr -a -- sk shellcheck
 abbr -a -- sl ls
 abbr -a -- smi 'sudo make install'
