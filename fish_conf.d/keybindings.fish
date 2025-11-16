@@ -24,8 +24,8 @@ bind \u00FF backward-kill-bigword
 bind \e\x7F backward-kill-bigword # option-delete on mac
 
 # Bind paste using function to avoid 'clone-cd git clone'
-bind \cv _paste_avoiding_double_git_clone
-bind \ev _paste_avoiding_double_git_clone
+bind \cv _paste-avoiding-double-git-clone
+bind \ev _paste-avoiding-double-git-clone
 
 # kitty keyboard protocol alt+v
-bind \u00F6 _paste_avoiding_double_git_clone
+bind \u00F6 _paste-avoiding-double-git-clone
