@@ -11,6 +11,11 @@ function postexec-source-profile --on-event fish_postexec
 
     set file_arg (echo $command_line | coln 2)
     set file_expanded (echo $file_arg | expand-home-tilde)
+
+    if not file-exists $file_expanded
+        return
+    end
+
     set file (realpath $file_expanded)
     set fish_config_files ~/.fish_profile (readlink -f ~/.config/fish/conf.d/config.fish)
 
