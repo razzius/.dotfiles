@@ -7,7 +7,6 @@ abbr -a -- .v '~/.vim'
 abbr -a -- / search
 abbr -a -- 1 'npx @11ty/eleventy'
 abbr -a -- 2 'git reset @^'
-abbr -a -- 3 '~/projects/bsharp'
 abbr -a -- 8 'curl localhost:8000'
 abbr -a -- :e ved
 abbr -a -- ` sync-repos
@@ -436,3 +435,9 @@ abbr -a -- lih 'limactl stop'
 abbr -a -- tyc 'typst compile'
 abbr -a --position anywhere -- naem name
 abbr -a --position anywhere -- -naem -name
+abbr -a --position anywhere -- lagnuages languages
+abbr -a -- rby ruby
+abbr -a -- rub ruby
+abbr -a -- rb ruby
+abbr -a --position anywhere -- budnle bundle
+abbr -a --position anywhere -- ifo info
