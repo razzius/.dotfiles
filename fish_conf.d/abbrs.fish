@@ -441,3 +441,7 @@ abbr -a -- rub ruby
 abbr -a -- rb ruby
 abbr -a --position anywhere -- budnle bundle
 abbr -a --position anywhere -- ifo info
+abbr -a -- jva java
+abbr -a --position anywhere -- execuatlble executable
+abbr -a -- bre brew
+abbr -a --position anywhere -- ipyhton ipython
