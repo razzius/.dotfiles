@@ -445,3 +445,9 @@ abbr -a -- jva java
 abbr -a --position anywhere -- execuatlble executable
 abbr -a -- bre brew
 abbr -a --position anywhere -- ipyhton ipython
+abbr -a --position anywhere -- directy directly
+abbr -a --position anywhere -- secitno section
+abbr -a --position anywhere -- secton section
+abbr -a --position anywhere -- framewokrs frameworks
+abbr -a --position anywhere -- seciton section
+abbr -a --position anywhere -- seciotn section
