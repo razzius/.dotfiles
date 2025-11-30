@@ -451,3 +451,9 @@ abbr -a --position anywhere -- secton section
 abbr -a --position anywhere -- framewokrs frameworks
 abbr -a --position anywhere -- seciton section
 abbr -a --position anywhere -- seciotn section
+abbr -a -- gralde gradle
+abbr -a --position anywhere -- fidn find
+abbr -a --position anywhere -- --verion --version
+abbr -a --position anywhere -- workign working
+abbr -a --position anywhere -- exceptino exception
+abbr -a --position anywhere -- hanlding handling
