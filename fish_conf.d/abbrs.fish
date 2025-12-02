@@ -201,7 +201,6 @@ abbr -a -- prm 'poetry remove'
 abbr -a -- pt pytest
 abbr -a -- ptx 'pytest -x'
 abbr -a -- pu 'pip uninstall -y'
-abbr -a -- pvv 'python -m venv venv'
 abbr -a -- pws '~/.password-store/'
 abbr -a -- pxi 'pipx install'
 abbr -a -- q query
@@ -226,7 +225,6 @@ abbr -a -- smi 'sudo make install'
 abbr -a -- so source
 abbr -a -- sp 'source ~/.profile'
 abbr -a -- sr 'string replace'
-abbr -a -- sv 'source venv/bin/activate.fish'
 abbr -a -- sw 'git switch'
 abbr -a -- sy symlink
 abbr -a -- sym symlink
@@ -457,3 +455,8 @@ abbr -a --position anywhere -- --verion --version
 abbr -a --position anywhere -- workign working
 abbr -a --position anywhere -- exceptino exception
 abbr -a --position anywhere -- hanlding handling
+abbr -a -- pvv 'python -m venv .venv'
+abbr -a -- sv 'source .venv/bin/activate.fish'
+abbr -a --position anywhere -- smae same
+abbr -a --position anywhere -- Erorr Error
+abbr -a --position anywhere -- handlign handling
