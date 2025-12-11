@@ -460,3 +460,6 @@ abbr -a -- sv 'source .venv/bin/activate.fish'
 abbr -a --position anywhere -- smae same
 abbr -a --position anywhere -- Erorr Error
 abbr -a --position anywhere -- handlign handling
+abbr -a -- me meson
+abbr -a -- lg 'git log'
+abbr -a --position anywhere -- itslef itself
