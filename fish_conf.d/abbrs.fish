@@ -463,3 +463,4 @@ abbr -a --position anywhere -- handlign handling
 abbr -a -- me meson
 abbr -a -- lg 'git log'
 abbr -a --position anywhere -- itslef itself
+abbr -a --position anywhere -- verisions versions
