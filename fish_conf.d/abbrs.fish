@@ -464,3 +464,9 @@ abbr -a -- me meson
 abbr -a -- lg 'git log'
 abbr -a --position anywhere -- itslef itself
 abbr -a --position anywhere -- verisions versions
+abbr -a --position anywhere -- erorr error
+abbr -a --position anywhere -- ot to
+abbr -a --position anywhere -- eror error
+abbr -a --position anywhere -- actuall actually
+abbr -a -- curli 'curl -I'
+abbr -a --position anywhere -- inlcuding including
