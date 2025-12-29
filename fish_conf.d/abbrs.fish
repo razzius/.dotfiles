@@ -470,3 +470,6 @@ abbr -a --position anywhere -- eror error
 abbr -a --position anywhere -- actuall actually
 abbr -a -- curli 'curl -I'
 abbr -a --position anywhere -- inlcuding including
+abbr -a --position anywhere -- hirign hiring
+abbr -a --position anywhere -- oterh other
+abbr -a --position anywhere -- fsih fish
