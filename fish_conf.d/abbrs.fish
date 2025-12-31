@@ -473,3 +473,17 @@ abbr -a --position anywhere -- inlcuding including
 abbr -a --position anywhere -- hirign hiring
 abbr -a --position anywhere -- oterh other
 abbr -a --position anywhere -- fsih fish
+abbr -a --position anywhere -- wokrs works
+abbr -a -- sg 'git status'
+abbr -a -- mk mkdir
+abbr -a -- touc touch
+abbr -a -- crf create-file
+abbr -a -- fsv funcsave
+abbr -a --position anywhere -- dorp drop
+abbr -a --position anywhere -- erro error
+abbr -a --position anywhere -- craete create
+abbr -a -- prev prevd
+abbr -a --position anywhere -- fsh fish
+abbr -a --position anywhere -- exapnd expand
+abbr -a --position anywhere -- loign login
+abbr -a --position anywhere -- cofirmation confirmation
