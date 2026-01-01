@@ -297,7 +297,6 @@ abbr -a -- glr 'git ls-remote'
 abbr -a -- gsu 'git switch-to-upstream-branch'
 abbr -a -- scm scheme
 abbr -a -- dush 'du -sh *'
-abbr -a -- uz clean-unzip
 abbr -a -- tt taptempo
 abbr -a -- gsi 'git status --ignored'
 abbr -a -- mp multipass
@@ -487,3 +486,16 @@ abbr -a --position anywhere -- fsh fish
 abbr -a --position anywhere -- exapnd expand
 abbr -a --position anywhere -- loign login
 abbr -a --position anywhere -- cofirmation confirmation
+abbr -a -- uz unzip-cd
+abbr -a --position anywhere -- fihs fish
+abbr -a -- unz unzip
+abbr -a --position anywhere -- comlete complete
+abbr -a --position anywhere -- whic which
+abbr -a --position anywhere -- -verison -version
+abbr -a --position anywhere -- expoert export
+abbr -a --position anywhere -- isntrucitnos instructions
+abbr -a --position anywhere -- instructinos instructions
+abbr -a --position anywhere -- isntructions instructions
+abbr -a --position anywhere -- specifc specific
+abbr -a --position anywhere -- verion version
+abbr -a --position anywhere -- wsihlist wishlist
