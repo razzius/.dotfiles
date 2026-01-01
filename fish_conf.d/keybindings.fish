@@ -23,6 +23,15 @@ bind \cw backward-kill-word
 bind \u00FF backward-kill-bigword
 bind \e\x7F backward-kill-bigword # option-delete on mac
 
+function _paste-avoiding-double-git-clone
+    set command (commandline | string trim)
+    set clipboard (fish_clipboard_paste | string collect -N)
+    if string match -qr '(clone-cd|clone-shallow-cd|git clone)' "$command"
+        set clipboard (echo $clipboard | string replace 'git clone ' '')
+    end
+    commandline -i -- $clipboard
+end
+
 # Bind paste using function to avoid 'clone-cd git clone'
 bind \cv _paste-avoiding-double-git-clone
 bind \ev _paste-avoiding-double-git-clone
