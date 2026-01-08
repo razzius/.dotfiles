@@ -499,3 +499,4 @@ abbr -a --position anywhere -- isntructions instructions
 abbr -a --position anywhere -- specifc specific
 abbr -a --position anywhere -- verion version
 abbr -a --position anywhere -- wsihlist wishlist
+abbr -a --position anywhere -- intall install
