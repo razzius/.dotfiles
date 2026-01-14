@@ -96,4 +96,5 @@
 [protocol]
 	version = 2
 [log]
-	date = relative
+	date = human
+	; date = relative
