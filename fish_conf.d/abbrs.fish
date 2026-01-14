@@ -500,3 +500,12 @@ abbr -a --position anywhere -- specifc specific
 abbr -a --position anywhere -- verion version
 abbr -a --position anywhere -- wsihlist wishlist
 abbr -a --position anywhere -- intall install
+abbr -a -- dg 'git diff'
+abbr -a --position anywhere -- hlpe help
+abbr -a --position anywhere -- --h --help
+abbr -a --position anywhere -- instpect inspect
+abbr -a -- docer docker
+abbr -a -- unset 'set --erase'
+abbr -a --position anywhere -- debuggign debugging
+abbr -a -- igt git
+abbr -a -- ecoh echo
