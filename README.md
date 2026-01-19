@@ -24,6 +24,7 @@ $ symlink ~/.dotfiles/fish_conf.d ~/.config/fish/conf.d
 
 ```
 $ link-rc .gitconfig
+$ link-rc .gitignore_global
 ```
 
 ## keyd
