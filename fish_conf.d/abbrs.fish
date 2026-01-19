@@ -509,3 +509,8 @@ abbr -a -- unset 'set --erase'
 abbr -a --position anywhere -- debuggign debugging
 abbr -a -- igt git
 abbr -a -- ecoh echo
+abbr -a --position anywhere -- msising missing
+abbr -a -- brw brew
+abbr -a -- reboot 'sudo reboot'
+abbr -a -- rebot 'sudo reboot'
+abbr -a --position anywhere -- ifno info
