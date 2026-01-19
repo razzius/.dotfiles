@@ -5,7 +5,6 @@ abbr -a -- .s '~/.dotfiles'
 abbr -a -- .t 'vim ~/.tmux.conf'
 abbr -a -- .v '~/.vim'
 abbr -a -- / search
-abbr -a -- 1 'npx @11ty/eleventy'
 abbr -a -- 2 'git reset @^'
 abbr -a -- 8 'curl localhost:8000'
 abbr -a -- :e ved
@@ -514,3 +513,4 @@ abbr -a -- brw brew
 abbr -a -- reboot 'sudo reboot'
 abbr -a -- rebot 'sudo reboot'
 abbr -a --position anywhere -- ifno info
+abbr -a --position anywhere -- prot port
