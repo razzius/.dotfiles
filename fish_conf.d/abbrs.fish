@@ -514,3 +514,6 @@ abbr -a -- reboot 'sudo reboot'
 abbr -a -- rebot 'sudo reboot'
 abbr -a --position anywhere -- ifno info
 abbr -a --position anywhere -- prot port
+abbr -a -- cd change-dir
+abbr -a -- strnig string
+abbr -a --position anywhere -- mutliple multiple
