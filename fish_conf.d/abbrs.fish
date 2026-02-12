@@ -530,3 +530,4 @@ abbr -a -- mkdirc mkdir-cd
 abbr -a -- uvr 'uv run'
 abbr -a --position anywhere -- maekfile makefile
 abbr -a --position anywhere -- fucntions functions
+abbr -a -- brw brew
