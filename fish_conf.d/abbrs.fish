@@ -531,3 +531,8 @@ abbr -a -- uvr 'uv run'
 abbr -a --position anywhere -- maekfile makefile
 abbr -a --position anywhere -- fucntions functions
 abbr -a -- brw brew
+abbr -a --position anywhere -- msising missing
+abbr -a -- brw brew
+abbr -a -- reboot 'sudo reboot'
+abbr -a -- rebot 'sudo reboot'
+abbr -a --position anywhere -- ifno info
