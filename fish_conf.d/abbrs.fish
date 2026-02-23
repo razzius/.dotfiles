@@ -41,7 +41,6 @@ abbr -a -- cr 'cargo run'
 abbr -a -- cv cvlc
 abbr -a -- cx 'chmod +x'
 abbr -a -- cz clean-unzip
-abbr -a -- d podman
 abbr -a -- d. 'podman build .'
 abbr -a -- dev 'git switch develop'
 abbr -a -- digs 'dig +short'
@@ -276,7 +275,6 @@ abbr -a -- gcid 'git commit-id'
 abbr -a -- wmc wmctrl
 abbr -a -- tarl 'tar --list --file'
 abbr -a -- u 'sudo apt update && apt list --upgradable'
-abbr -a -- vf 'vim +:Files'
 abbr -a -- whcih which
 abbr -a -- wh which
 abbr -a -- gsl 'git stash list'
@@ -517,3 +515,18 @@ abbr -a --position anywhere -- prot port
 abbr -a -- cd change-dir
 abbr -a -- strnig string
 abbr -a --position anywhere -- mutliple multiple
+abbr -a --position anywhere -- arguemtns arguments
+abbr -a --position anywhere -- iwth with
+abbr -a -- coutn count
+abbr -a -- vf 'vim +Files'
+abbr -a --position anywhere -- bfeore before
+abbr -a -- mkdr mkdir
+abbr -a -- d change-dir
+abbr -a --position anywhere -- hte the
+abbr -a -- dsk '~/Desktop'
+abbr -a -- mkidr mkdir
+abbr -a -- fis fish
+abbr -a -- mkdirc mkdir-cd
+abbr -a -- uvr 'uv run'
+abbr -a --position anywhere -- maekfile makefile
+abbr -a --position anywhere -- fucntions functions
