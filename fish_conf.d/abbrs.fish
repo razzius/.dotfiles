@@ -532,4 +532,5 @@ abbr -a --position anywhere -- ifno info
 abbr -a --position anywhere -- udpate update
 abbr -a -- brw brew
 abbr -a --position anywhere -- reloda reload
+abbr -a -- km 'sudo keyd monitor'
 abbr -a -- kr 'sudo keyd reload'
