@@ -537,3 +537,4 @@ abbr -a -- reboot 'sudo reboot'
 abbr -a -- rebot 'sudo reboot'
 abbr -a --position anywhere -- ifno info
 abbr -a -- brw brew
+abbr -a --position anywhere -- udpate update
