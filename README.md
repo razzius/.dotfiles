@@ -30,7 +30,7 @@ $ link-rc .gitignore_global
 ## keyd
 
 ```
-$ sudo ln -s (pwd)/keyd_config /etc/keyd
+$ sudo ln -s --no-target-directory (pwd)/keyd_config /etc/keyd
 ```
 
 ## rg
