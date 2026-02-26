@@ -506,11 +506,6 @@ abbr -a -- unset 'set --erase'
 abbr -a --position anywhere -- debuggign debugging
 abbr -a -- igt git
 abbr -a -- ecoh echo
-abbr -a --position anywhere -- msising missing
-abbr -a -- brw brew
-abbr -a -- reboot 'sudo reboot'
-abbr -a -- rebot 'sudo reboot'
-abbr -a --position anywhere -- ifno info
 abbr -a --position anywhere -- prot port
 abbr -a -- cd change-dir
 abbr -a -- strnig string
@@ -534,11 +529,7 @@ abbr -a --position anywhere -- msising missing
 abbr -a -- reboot 'sudo reboot'
 abbr -a -- rebot 'sudo reboot'
 abbr -a --position anywhere -- ifno info
-abbr -a -- brw brew
 abbr -a --position anywhere -- udpate update
 abbr -a -- brw brew
-abbr -a --position anywhere -- msising missing
-abbr -a -- reboot 'sudo reboot'
-abbr -a -- rebot 'sudo reboot'
-abbr -a --position anywhere -- ifno info
-abbr -a --position anywhere -- chekc check
+abbr -a --position anywhere -- reloda reload
+abbr -a -- kr 'sudo keyd reload'
