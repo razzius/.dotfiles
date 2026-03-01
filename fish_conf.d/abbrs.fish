@@ -358,6 +358,7 @@ abbr -a -- pn pnpm
 abbr -a --position anywhere -- instlal install
 abbr -a -- piup 'pip install --upgrade pip'
 abbr -a --set-cursor='%' -- ma "math '%'"
+abbr -a --set-cursor='%' -- math "math '%'"
 abbr -a -- suod sudo
 abbr -a --position anywhere -- adn and
 abbr -a --position anywhere -- uninstlal uninstall
@@ -534,3 +535,5 @@ abbr -a -- brw brew
 abbr -a --position anywhere -- reloda reload
 abbr -a -- km 'sudo keyd monitor'
 abbr -a -- kr 'sudo keyd reload'
+abbr -a --position anywhere -- cretae create
+abbr -a -- shut shutdown
