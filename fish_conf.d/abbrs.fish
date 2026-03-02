@@ -90,7 +90,6 @@ abbr -a -- gg 'git grep'
 abbr -a -- gi 'gem install'
 abbr -a -- gig 'git status --ignored'
 abbr -a -- giti gitignore
-abbr -a -- gl 'git pull'
 abbr -a -- glg 'git log'
 abbr -a -- gm 'git merge'
 abbr -a -- gn 'git new'
@@ -539,3 +538,6 @@ abbr -a --position anywhere -- cretae create
 abbr -a -- shut shutdown
 abbr -a --position anywhere -- mian main
 abbr -a --position anywhere -- githb github
+abbr -a -- gl git-pull
+abbr -a --position anywhere -- reutnr return
+abbr -a --position anywhere -- reutrn return
