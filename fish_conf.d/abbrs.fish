@@ -537,3 +537,5 @@ abbr -a -- km 'sudo keyd monitor'
 abbr -a -- kr 'sudo keyd reload'
 abbr -a --position anywhere -- cretae create
 abbr -a -- shut shutdown
+abbr -a --position anywhere -- mian main
+abbr -a --position anywhere -- githb github
