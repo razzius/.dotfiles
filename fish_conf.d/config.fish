@@ -17,7 +17,7 @@ function postexec-source-profile --on-event fish_postexec
     end
 
     set file (realpath $file_expanded)
-    set fish_config_files ~/.fish_profile (readlink -f ~/.config/fish/conf.d/config.fish)
+    set fish_config_files ~/.fish_profile (readlink -f ~/.config/fish/conf.d/*.fish)
 
     if contains -- $file $fish_config_files
         echo -n "Sourcing "(echo $file | unexpand-home-tilde)"... "
