@@ -16,12 +16,11 @@ bind \ct transpose-chars
 # Make C-s accept autocompletion and submit :))
 bind \cs accept-autosuggestion execute
 
-# Make C-w delete a whole word including special chars
-bind \cw backward-kill-word
+bind \cc cancel-commandline
 
-# Make A-bksp delete a whole word including special chars
-bind \u00FF backward-kill-bigword
-bind \e\x7F backward-kill-bigword # option-delete on mac
+# Make A-bksp delete a word up to a special char
+# TODO maybe make this clear the bigword
+# bind alt-w backward-kill-bigword
 
 function _paste-avoiding-double-git-clone
     set command (commandline | string trim)
