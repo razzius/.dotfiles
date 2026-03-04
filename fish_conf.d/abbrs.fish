@@ -554,3 +554,7 @@ abbr -a -- mkp 'mkdir -p'
 abbr -a -- um umount
 abbr -a -- gapa 'git add-push-all'
 abbr -a -- gre 'git remote'
+abbr -a --position anywhere -- chcek check
+abbr -a -- kdc 'sudo keyd check'
+abbr -a --position anywhere -- gues guess
+abbr -a --position anywhere -- descripton description
