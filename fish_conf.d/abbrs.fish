@@ -541,3 +541,10 @@ abbr -a --position anywhere -- githb github
 abbr -a -- gl git-pull
 abbr -a --position anywhere -- reutnr return
 abbr -a --position anywhere -- reutrn return
+abbr -a --position anywhere -- cuople couple
+abbr -a --position anywhere -- sielntly silently
+abbr -a --position anywhere -- subsittutoin substitution
+abbr -a --position anywhere -- substitutin substitution
+abbr -a --position anywhere -- Mkae Make
+abbr -a --position anywhere -- fils files
+abbr -a --position anywhere -- cahnge change
