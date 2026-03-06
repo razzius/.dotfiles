@@ -37,3 +37,18 @@ bind \ev _paste-avoiding-double-git-clone
 
 # kitty keyboard protocol alt+v
 bind \u00F6 _paste-avoiding-double-git-clone
+
+function _type_tilde_and_slash
+    commandline -i -- '~/'
+end
+
+bind \~ _type_tilde_and_slash
+
+function _avoid_type_redundant_slash_after_tilde
+    set command (commandline)
+    if not string match -qr '~/$' $command
+        commandline -i -- '/'
+    end
+end
+
+bind / _avoid_type_redundant_slash_after_tilde
