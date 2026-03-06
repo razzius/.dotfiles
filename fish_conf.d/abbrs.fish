@@ -533,7 +533,6 @@ abbr -a --position anywhere -- udpate update
 abbr -a -- brw brew
 abbr -a --position anywhere -- reloda reload
 abbr -a -- km 'sudo keyd monitor'
-abbr -a -- kr 'sudo keyd reload'
 abbr -a --position anywhere -- cretae create
 abbr -a -- shut shutdown
 abbr -a --position anywhere -- mian main
@@ -558,3 +557,4 @@ abbr -a --position anywhere -- chcek check
 abbr -a -- kdc 'sudo keyd check'
 abbr -a --position anywhere -- gues guess
 abbr -a --position anywhere -- descripton description
+abbr -a -- kr 'sudo keyd check && sudo keyd reload'
