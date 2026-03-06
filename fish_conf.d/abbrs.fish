@@ -548,3 +548,7 @@ abbr -a --position anywhere -- substitutin substitution
 abbr -a --position anywhere -- Mkae Make
 abbr -a --position anywhere -- fils files
 abbr -a --position anywhere -- cahnge change
+abbr -a --position anywhere -- ugprade upgrade
+abbr -a -- binf 'brew info'
+abbr -a -- mkp 'mkdir -p'
+abbr -a -- um umount
