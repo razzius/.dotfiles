@@ -552,3 +552,5 @@ abbr -a --position anywhere -- ugprade upgrade
 abbr -a -- binf 'brew info'
 abbr -a -- mkp 'mkdir -p'
 abbr -a -- um umount
+abbr -a -- gapa 'git add-push-all'
+abbr -a -- gre 'git remote'

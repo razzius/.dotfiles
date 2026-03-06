@@ -2,6 +2,11 @@
 	email = razzi@abuissa.net
 	name = Razzi Abuissa
 [alias]
+  add-push-all = "!\
+    remote_urls=`git remote | xargs -I {} git remote get-url {}` &&\
+    git remote add all $(git remote get-url origin) &&\
+    echo $remote_urls | xargs -n 1 -I {} git remote set-url --add --push all {}\
+  "
 	assumed-unchanged = "!git ls-files -v | grep '^[a-z]' | awk '{print $2}'"
 	branch-names = for-each-ref --format='%(refname:short)' refs/heads
 	branch-updates = for-each-ref --sort='-authordate:iso8601' --format=' %(authordate:relative)%09%(refname:short)' refs/heads
