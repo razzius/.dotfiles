@@ -558,3 +558,4 @@ abbr -a -- kdc 'sudo keyd check'
 abbr -a --position anywhere -- gues guess
 abbr -a --position anywhere -- descripton description
 abbr -a -- kr 'sudo keyd check && sudo keyd reload'
+abbr -a --position anywhere -- reloadgin reloading
