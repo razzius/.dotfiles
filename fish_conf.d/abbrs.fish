@@ -559,3 +559,7 @@ abbr -a --position anywhere -- gues guess
 abbr -a --position anywhere -- descripton description
 abbr -a -- kr 'sudo keyd check && sudo keyd reload'
 abbr -a --position anywhere -- reloadgin reloading
+abbr -a --position anywhere -- imge image
+abbr -a -- gref 'git reflog'
+abbr -a -- tru trurl
+abbr -a -- pas pass
