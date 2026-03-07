@@ -563,3 +563,5 @@ abbr -a --position anywhere -- imge image
 abbr -a -- gref 'git reflog'
 abbr -a -- tru trurl
 abbr -a -- pas pass
+abbr -a --position anywhere -- worsd words
+abbr -a -- kara '~/.config/karabiner'
