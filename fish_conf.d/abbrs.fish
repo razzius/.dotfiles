@@ -565,3 +565,4 @@ abbr -a -- tru trurl
 abbr -a -- pas pass
 abbr -a --position anywhere -- worsd words
 abbr -a -- kara '~/.config/karabiner'
+abbr -a --position anywhere -- Rmove Remove
