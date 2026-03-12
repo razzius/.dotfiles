@@ -10,7 +10,6 @@ abbr -a -- 8 'curl localhost:8000'
 abbr -a -- :e ved
 abbr -a -- ` sync-repos
 abbr -a -- a rg
-abbr -a -- aa 'sudo apt autoremove'
 abbr -a -- ab abbr-add
 abbr -a -- ach 'apt changelog'
 abbr -a -- acs 'apt-cache search --names-only'
@@ -566,3 +565,4 @@ abbr -a -- pas pass
 abbr -a --position anywhere -- worsd words
 abbr -a -- kara '~/.config/karabiner'
 abbr -a --position anywhere -- Rmove Remove
+abbr -a -- aa 'sudo apt autoremove -y'
