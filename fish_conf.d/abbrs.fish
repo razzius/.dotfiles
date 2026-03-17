@@ -340,7 +340,6 @@ abbr -a -- kd 'make deploy'
 abbr -a -- lcs 'limactl stop'
 abbr -a -- au 'sudo apt update'
 abbr -a -- di 'sudo dpkg -i'
-abbr -a -- fi fish
 abbr -a -- cp copy
 abbr -a -- lsh 'limactl shell'
 abbr -a -- pv 'python3 -m venv venv'
@@ -352,7 +351,7 @@ abbr -a --set-cursor='%' -- rmw 'remove (which %)'
 abbr -a -- lil 'limactl list'
 abbr -a -- des '~/Desktop'
 abbr -a -- conv convert
-abbr -a -- .a '~/.vim/plugins/razzi-abbrevs'
+abbr -a -- .a '~/.vim/plugins/razzi-abbrevs.vim'
 abbr -a -- pn pnpm
 abbr -a --position anywhere -- instlal install
 abbr -a -- piup 'pip install --upgrade pip'
@@ -566,3 +565,12 @@ abbr -a -- pas pass
 abbr -a --position anywhere -- worsd words
 abbr -a -- kara '~/.config/karabiner'
 abbr -a --position anywhere -- Rmove Remove
+abbr -a --position anywhere -- teh the
+abbr -a --position anywhere -- fi if
+abbr -a --position anywhere -- bulid build
+abbr -a --position anywhere -- tassk tasks
+abbr -a --position anywhere -- tset test
+abbr -a -- -- prevd
+abbr -a --position anywhere -- --hep --help
+abbr -a --position anywhere -- sotp stop
+abbr -a --position anywhere -- fo of
