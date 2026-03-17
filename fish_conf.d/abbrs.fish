@@ -574,3 +574,6 @@ abbr -a -- -- prevd
 abbr -a --position anywhere -- --hep --help
 abbr -a --position anywhere -- sotp stop
 abbr -a --position anywhere -- fo of
+abbr -a --position anywhere -- waht what
+abbr -a --position anywhere -- buid build
+abbr -a --position anywhere -- commadn command
