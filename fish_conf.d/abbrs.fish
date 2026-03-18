@@ -146,7 +146,6 @@ abbr -a -- m 'git switch main'
 abbr -a -- main 'git switch main'
 abbr -a -- mc mkdir-cd
 abbr -a -- mdkir mkdir
-abbr -a -- mkd mkdir
 abbr -a -- mkdirp 'mkdir -p'
 abbr -a -- ml move-last-download
 abbr -a -- mr 'make run'
@@ -469,7 +468,6 @@ abbr -a --position anywhere -- oterh other
 abbr -a --position anywhere -- fsih fish
 abbr -a --position anywhere -- wokrs works
 abbr -a -- sg 'git status'
-abbr -a -- mk mkdir
 abbr -a -- touc touch
 abbr -a -- crf create-file
 abbr -a -- fsv funcsave
@@ -577,3 +575,5 @@ abbr -a --position anywhere -- fo of
 abbr -a --position anywhere -- waht what
 abbr -a --position anywhere -- buid build
 abbr -a --position anywhere -- commadn command
+abbr -a -- mkd make-directory
+abbr -a -- mk make-directory
