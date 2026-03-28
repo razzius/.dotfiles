@@ -146,6 +146,7 @@ abbr -a -- m 'git switch main'
 abbr -a -- main 'git switch main'
 abbr -a -- mc mkdir-cd
 abbr -a -- mdkir mkdir
+abbr -a -- mkd mkdir
 abbr -a -- mkdirp 'mkdir -p'
 abbr -a -- ml move-last-download
 abbr -a -- mr 'make run'
@@ -575,5 +576,16 @@ abbr -a --position anywhere -- fo of
 abbr -a --position anywhere -- waht what
 abbr -a --position anywhere -- buid build
 abbr -a --position anywhere -- commadn command
-abbr -a -- mkd make-directory
-abbr -a -- mk make-directory
+abbr -a -- grale gradle
+abbr -a -- gdl gradle
+abbr -a --position anywhere -- upgrde upgrade
+abbr -a -- bu 'brew upgrade'
+abbr -a -- mk make-dir
+abbr -a --position anywhere -- ofr for
+abbr -a -- bup 'brew update'
+abbr -a -- icb '~/forks/icbikelibrary-static'
+abbr -a --position anywhere -- baord board
+abbr -a --position anywhere -- terst test
+abbr -a --position anywhere -- jaav java
+abbr -a -- jav java
+abbr -a -- syms symlinks
