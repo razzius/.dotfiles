@@ -589,3 +589,4 @@ abbr -a --position anywhere -- terst test
 abbr -a --position anywhere -- jaav java
 abbr -a -- jav java
 abbr -a -- syms symlinks
+abbr -a -- cm.. 'cmake ..'
