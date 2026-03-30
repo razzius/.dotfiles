@@ -590,3 +590,4 @@ abbr -a --position anywhere -- jaav java
 abbr -a -- jav java
 abbr -a -- syms symlinks
 abbr -a -- cm.. 'cmake ..'
+abbr -a -- mkdir make-dir
