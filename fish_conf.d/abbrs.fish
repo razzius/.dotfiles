@@ -231,7 +231,6 @@ abbr -a -- t "vim '+terminal ++curwin'"
 abbr -a -- tali tail
 abbr -a -- tm tmux
 abbr -a -- tz tgz
-abbr -a -- ug 'sudo apt upgrade -y'
 abbr -a -- us unsymlink
 abbr -a -- v vim
 abbr -a -- vbu 'vagrant box update'
@@ -355,6 +354,7 @@ abbr -a -- pn pnpm
 abbr -a --position anywhere -- instlal install
 abbr -a -- piup 'pip install --upgrade pip'
 abbr -a --set-cursor='%' -- ma "math '%'"
+abbr -a --set-cursor='%' -- mat "math '%'"
 abbr -a --set-cursor='%' -- math "math '%'"
 abbr -a -- suod sudo
 abbr -a --position anywhere -- adn and
@@ -591,3 +591,14 @@ abbr -a -- jav java
 abbr -a -- syms symlinks
 abbr -a -- cm.. 'cmake ..'
 abbr -a -- mkdir make-dir
+abbr -a -- ter tree
+abbr -a -- ud update
+abbr -a --position anywhere -- excpetion exception
+abbr -a --position anywhere -- excepiton exception
+abbr -a --position anywhere -- exceitpon exception
+abbr -a -- grade gradle
+abbr -a -- grad gradle
+abbr -a -- lsa 'ls -a'
+abbr -a --position anywhere -- startporject startproject
+abbr -a -- ug upgrade
+abbr -a -- gri 'git rebase -i'
