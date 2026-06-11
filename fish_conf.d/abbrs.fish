@@ -602,3 +602,6 @@ abbr -a -- lsa 'ls -a'
 abbr -a --position anywhere -- startporject startproject
 abbr -a -- ug upgrade
 abbr -a -- gri 'git rebase -i'
+abbr -a -- upd update
+abbr -a --position anywhere -- spansih spanish
+abbr -a --position anywhere -- copile compile
