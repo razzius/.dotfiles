@@ -46,7 +46,7 @@ bind \~ _type_tilde_and_slash
 
 function _avoid_type_redundant_slash_after_tilde
     set command (commandline)
-    if not string match -qr '~/$' $command
+    if not string match -qr -- '~/$' $command
         commandline -i -- '/'
     end
 end
