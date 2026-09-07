@@ -609,3 +609,5 @@ abbr -a -- fnr find-and-replace
 abbr -a --position anywhere -- Remvoe Remove
 abbr -a --position anywhere -- serach search
 abbr -a --position anywhere -- colelct collect
+abbr -a -- lm lima
+abbr -a -- liv lima-vnc
