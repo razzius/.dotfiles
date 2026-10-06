@@ -611,3 +611,4 @@ abbr -a --position anywhere -- serach search
 abbr -a --position anywhere -- colelct collect
 abbr -a -- lm lima
 abbr -a -- liv lima-vnc
+abbr -a -- lch 'limactl stop'
