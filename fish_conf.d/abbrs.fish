@@ -308,7 +308,6 @@ abbr -a --position anywhere -- deiban debian
 abbr -a -- cl clone-shallow-cd
 abbr -a --position anywhere -- tempalte template
 abbr -a -- .p '~/.password-store'
-abbr -a -- dls '~/Downloads'
 abbr -a --position anywhere -- unisntall uninstall
 abbr -a -- ae abbr-erase
 abbr -a -- r ruby
@@ -608,7 +607,11 @@ abbr -a --position anywhere -- copile compile
 abbr -a -- fnr find-and-replace
 abbr -a --position anywhere -- Remvoe Remove
 abbr -a --position anywhere -- serach search
+abbr -a -- lch 'limactl stop'
+abbr -a -- .giti gitignore
+abbr -a -- abr abbr
+abbr -a -- do '~/Documents'
+abbr -a -- cb 'cargo build'
 abbr -a --position anywhere -- colelct collect
 abbr -a -- lm lima
 abbr -a -- liv lima-vnc
-abbr -a -- lch 'limactl stop'
