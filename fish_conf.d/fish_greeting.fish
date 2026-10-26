@@ -1,4 +1,4 @@
 function fish_greeting
-    set -U beats START
+    set -e beats
     echo '>*)))>< <*)))>< "how is your posture?"'
 end

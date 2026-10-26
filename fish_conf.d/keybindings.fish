@@ -52,3 +52,15 @@ function _avoid_type_redundant_slash_after_tilde
 end
 
 bind / _avoid_type_redundant_slash_after_tilde
+
+function _clear_bpm --on-event fish_postexec
+    set -e beats
+end
+
+bind ctrl-l 'set -e beats' clear fish_prompt
+
+function _note_bpm
+    set -U beats (date +%s.%N) $beats[1..3]
+end
+
+bind enter _note_bpm execute

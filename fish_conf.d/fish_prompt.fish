@@ -1,18 +1,4 @@
-function clear_bpm_on_normal_command --on-event fish_postexec
-    set -e beats
-end
-
-bind ctrl-l 'set -e beats && clear && fish_prompt'
-# bind ctrl-l 'set -e beats && clear'
-
 function display_bpm
-    if equals $beats START
-        set -e beats
-        return
-    end
-
-    set -U beats (gdate +%s.%3N) $beats[1..3]
-
     if test (count $beats) -lt 4
         return
     end
@@ -26,10 +12,9 @@ function display_bpm
     set bps (math 1 / $avg)
     set bpm (math "$bps * 60")
 
-    if test $bpm -gt 55
-        printf "%.0f " $bpm
-    end
+    printf "%.0f " $bpm
 end
+
 
 function fish_prompt --description 'Write out the prompt'
     display_bpm
