@@ -3,12 +3,8 @@ function display_bpm
         return
     end
 
-    set diffs \
-        (math $beats[1] - $beats[2]) \
-        (math $beats[2] - $beats[3]) \
-        (math $beats[3] - $beats[4])
+    set avg (math "($beats[1] - $beats[4]) / 3")
 
-    set avg (math "($diffs[1] + $diffs[2] + $diffs[3]) / 3")
     set bps (math 1 / $avg)
     set bpm (math "$bps * 60")
 
