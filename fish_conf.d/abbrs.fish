@@ -28,7 +28,6 @@ abbr -a -- ash 'apt show'
 abbr -a -- bi 'brew install'
 abbr -a -- bl black
 abbr -a -- br 'bat README.md'
-abbr -a -- c cd
 abbr -a -- c4 'chmod 400'
 abbr -a -- ca cat
 abbr -a -- cc clone-cd
@@ -615,3 +614,7 @@ abbr -a -- cb 'cargo build'
 abbr -a --position anywhere -- colelct collect
 abbr -a -- lm lima
 abbr -a -- liv lima-vnc
+abbr -a -- c change-dir
+abbr -a --position anywhere -- defautl default
+abbr -a -- ql 'qlmanage -p'
+abbr -a -- mg magick
