@@ -618,3 +618,5 @@ abbr -a -- c change-dir
 abbr -a --position anywhere -- defautl default
 abbr -a -- ql 'qlmanage -p'
 abbr -a -- mg magick
+abbr -a -- mna man
+abbr -a --position anywhere -- commanldine commandline
