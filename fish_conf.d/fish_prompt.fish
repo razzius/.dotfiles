@@ -13,9 +13,9 @@ end
 
 
 function fish_prompt --description 'Write out the prompt'
-    display_bpm
-
     set -l last_status $status
+
+    display_bpm
 
     if not test $PWD = $HOME
         set_color $fish_color_cwd
