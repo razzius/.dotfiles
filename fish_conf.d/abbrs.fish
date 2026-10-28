@@ -621,3 +621,4 @@ abbr -a -- mg magick
 abbr -a -- mna man
 abbr -a --position anywhere -- commanldine commandline
 abbr -a --position anywhere -- dls '~/Downloads'
+abbr -a --position anywhere -- ocmmand command
