@@ -57,7 +57,6 @@ abbr -a -- ehco echo
 abbr -a -- eo echo
 abbr -a -- ev echo-variable
 abbr -a -- exp expect
-abbr -a -- f '~/forks'
 abbr -a -- fcc fish_clipboard_copy
 abbr -a -- fcp fish_clipboard_paste
 abbr -a -- fe 'funced -s'
@@ -91,7 +90,6 @@ abbr -a -- giti gitignore
 abbr -a -- glg 'git log'
 abbr -a -- gm 'git merge'
 abbr -a -- gn 'git new'
-abbr -a -- gp 'git push'
 abbr -a -- gpf 'git push --force-with-lease'
 abbr -a -- gpro git-protocol-https-to-git
 abbr -a -- gq 'git restore .'
@@ -351,9 +349,6 @@ abbr -a -- .a '~/.vim/plugins/razzi-abbrevs.vim'
 abbr -a -- pn pnpm
 abbr -a --position anywhere -- instlal install
 abbr -a -- piup 'pip install --upgrade pip'
-abbr -a --set-cursor='%' -- ma "math '%'"
-abbr -a --set-cursor='%' -- mat "math '%'"
-abbr -a --set-cursor='%' -- math "math '%'"
 abbr -a -- suod sudo
 abbr -a --position anywhere -- adn and
 abbr -a --position anywhere -- uninstlal uninstall
@@ -623,3 +618,22 @@ abbr -a --position anywhere -- commanldine commandline
 abbr -a --position anywhere -- dls '~/Downloads'
 abbr -a --position anywhere -- ocmmand command
 abbr -a -- tmp '~/tmp'
+abbr -a --position anywhere -- emas emacs
+abbr -a -- ma math
+abbr -a --position anywhere -- sleect select
+abbr -a --position anywhere -- selet select
+abbr -a -- pythn python
+abbr -a --position anywhere -- dlete delete
+abbr -a -- lcd 'limactl delete'
+abbr -a -- slepe sleep
+abbr -a -- gp git-push
+abbr -a -- er error
+abbr -a -- f fish
+abbr -a -- fk '~/forks'
+abbr -a -- to touch
+abbr -a --position anywhere -- euqals equals
+abbr -a --position anywhere -- expeted expected
+abbr -a --position anywhere -- excpeted expected
+abbr -a -- ret return
+abbr -a --position anywhere -- arguemnt argument
+abbr -a --position anywhere -- arguemtn argument
