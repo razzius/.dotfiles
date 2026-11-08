@@ -626,7 +626,6 @@ abbr -a -- pythn python
 abbr -a --position anywhere -- dlete delete
 abbr -a -- lcd 'limactl delete'
 abbr -a -- slepe sleep
-abbr -a -- gp git-push
 abbr -a -- er error
 abbr -a -- f fish
 abbr -a -- fk '~/forks'
@@ -637,3 +636,5 @@ abbr -a --position anywhere -- excpeted expected
 abbr -a -- ret return
 abbr -a --position anywhere -- arguemnt argument
 abbr -a --position anywhere -- arguemtn argument
+abbr -a -- gp 'git push'
+abbr -a --position anywhere -- fucntion function
