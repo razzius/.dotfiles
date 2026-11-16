@@ -646,3 +646,6 @@ abbr -a -- f '~/forks'
 abbr -a -- hgrep 'history | grep'
 abbr -a --position anywhere -- Remoce Remove
 abbr -a -- basenmae basename
+abbr -a -- hstiroy history
+abbr -a -- histoyr history
+abbr -a -- histyro history
