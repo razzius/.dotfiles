@@ -558,7 +558,6 @@ abbr -a -- kara '~/.config/karabiner'
 abbr -a --position anywhere -- Rmove Remove
 abbr -a -- aa 'sudo apt autoremove -y'
 abbr -a --position anywhere -- teh the
-abbr -a --position anywhere -- fi if
 abbr -a --position anywhere -- bulid build
 abbr -a --position anywhere -- tassk tasks
 abbr -a --position anywhere -- tset test
@@ -627,7 +626,6 @@ abbr -a --position anywhere -- dlete delete
 abbr -a -- lcd 'limactl delete'
 abbr -a -- slepe sleep
 abbr -a -- er error
-abbr -a -- f fish
 abbr -a -- fk '~/forks'
 abbr -a -- to touch
 abbr -a --position anywhere -- euqals equals
@@ -638,3 +636,13 @@ abbr -a --position anywhere -- arguemnt argument
 abbr -a --position anywhere -- arguemtn argument
 abbr -a -- gp 'git push'
 abbr -a --position anywhere -- fucntion function
+abbr -a -- hisotry history
+abbr -a -- hsotry history
+abbr -a --position anywhere -- varaibles variables
+abbr -a --position anywhere -- loal local
+abbr -a --position anywhere -- dont "don\\'t"
+abbr -a -- fi fish
+abbr -a -- f '~/forks'
+abbr -a -- hgrep 'history | grep'
+abbr -a --position anywhere -- Remoce Remove
+abbr -a -- basenmae basename
